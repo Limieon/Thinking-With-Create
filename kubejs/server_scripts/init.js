@@ -174,9 +174,9 @@ const Gears = {
 	gold: 'modern_industrialization:gold_gear',
 	invar: 'modern_industrialization:invar_gear',
 	iron: 'modern_industrialization:iron_gear',
-	stainlessSteel: 'modern_industrialization:iron_gear',
-	steel: 'modern_industrialization:iron_gear',
-	titanium: 'modern_industrialization:iron_gear'
+	stainlessSteel: 'modern_industrialization:stainless_steel_gear',
+	steel: 'modern_industrialization:steel_gear',
+	titanium: 'modern_industrialization:titanium_gear'
 }
 const Woods = {
 	oak: {
@@ -321,6 +321,12 @@ const DML = {
 	key: 'dml-refabricated:trial_key',
 	learner: 'dml-refabricated:deep_learner'
 }
+const KubeJS = {
+	andesite_drill: 'kubejs:andesite_drill',
+	star_dust: 'kubejs:star_dust',
+	starmetal_ingot: 'kubejs:starmetal_ingot',
+	star_ore: 'kubejs:star_ore'
+}
 
 const Heated = {
 	None: 0,
@@ -397,6 +403,21 @@ const Create = {
 		e.recipes.createFilling([
 			i, Fluid.of(f, a * 81)
 		], o)
+	}
+}
+const ModernIndustrialization = {
+	makeQuarry: (e, drill, propability, eu, time, outputs) => {
+		e.custom({
+			type: 'modern_industrialization:quarry',
+			eu: eu,
+			duration: time,
+			item_inputs: {
+				item: drill,
+				amount: 1,
+				probability: propability
+			},
+			item_outputs: outputs
+		})
 	}
 }
 

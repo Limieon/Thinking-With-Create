@@ -17,7 +17,8 @@ The next thing, I'm working on is a quest book. The quest book should help you t
 
 ## This is an Expert Modpack
 That means, also vanilla recipes have been changed to fit into an expert style pack. 
-Also like some already existing expert modpacks have done, I also halved the output of logs and the amount of sticks per craft.
+Also like some already existing expert modpacks have done, I also halved the output of logs and the amount of sticks per craft.  
+Expert in this terms means not, that you need to be an expert in all of these mods, it only means that this modpack is harder in progression than the average of modpacks.
 
 ## Why Fabric?
 Because Fabric is newer, more modern, has better performance optimisation mods such as Sodium and Phosphor and is also out of the box more performant than forge.
@@ -29,12 +30,12 @@ These numbers are pure guesses and are not mathematically calculated!
 | Mod                           | Status         |
 |-------------------------------|----------------|
 | Enhanced Quarreis             | Finished       |
-| Modern Dynamics               | 90% Done       |
+| Modern Dynamics               | 95% Done       |
 | Applied Energistics           | 70% Done       |
 | Create                        | 40% Done       |
 | XP Obelisks                   | 30% Done       |
 | Tech Reborn                   | 5% Done        |
-| Modern Industrialization      | 1% Done        |
+| Modern Industrialization      | 2% Done        |
 | Botania                       | Not Started    |
 | Apotheosis                    | Not Started    |
 | Can You Trash It?             | Not Started    |

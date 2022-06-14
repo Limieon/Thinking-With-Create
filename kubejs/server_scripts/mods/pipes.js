@@ -67,4 +67,6 @@ onEvent('recipes', e => {
 		R: 'minecraft:redstone',
 		D: 'create:electron_tube'
 	})
+
+	e.remove({ output: 'moderndynamics:wrench' })
 })
