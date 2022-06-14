@@ -29,4 +29,17 @@ onEvent('recipes', e => {
 		P: '#minecraft:planks',
 		S: '#c:stone'
 	}, 'create:crushing_wheel')
+
+	e.remove({ output: 'create:mechanical_pump' })
+	e.shapeless('create:mechanical_pump', ['create:cogwheel', 'create:fluid_pipe', 'modern_industrialization:copper_rotor'])
+
+	e.remove({ output: 'create:fluid_tank' })
+	e.shaped('create:fluid_tank', [
+		'PPP',
+		'PGP',
+		'PPP'
+	], {
+		P: Plates.copper,
+		G: '#c:glass'
+	})
 })

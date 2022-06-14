@@ -1,6 +1,6 @@
 
 onEvent('recipes', e => {
-	ModernIndustrialization.makeQuarry(e, KubeJS.andesite_drill, 0.05, 8, 600, [
+	ModernIndustrialization.makeQuarry(e, KubeJS.andesite_drill, 0.05, 4, 600, [
 		{ item: KubeJS.star_ore, amount: 1, probability: 0.1 }
 	])
 

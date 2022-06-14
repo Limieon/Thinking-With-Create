@@ -36,6 +36,8 @@ These numbers are pure guesses and are not mathematically calculated!
 | XP Obelisks                   | 30% Done       |
 | Tech Reborn                   | 5% Done        |
 | Modern Industrialization      | 2% Done        |
+| Tom's Simple Storage Mod      | 0% Done        |
+| Deep Mob Learning             | Not Started    |
 | Botania                       | Not Started    |
 | Apotheosis                    | Not Started    |
 | Can You Trash It?             | Not Started    |
@@ -51,7 +53,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (158)
+## Mods (159)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -97,6 +99,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Create Fabric](https://www.curseforge.com/minecraft/mc-mods/create-fabric)  
 * [CreatePlus](https://www.curseforge.com/minecraft/mc-mods/createplus)  
 * [CreativeCore](https://www.curseforge.com/minecraft/mc-mods/creativecore)  
+* [Croparia v3 [FORGE/FABRIC]](https://www.curseforge.com/minecraft/mc-mods/croparia)  
 * [Croptopia [FABRIC/FORGE]](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric)  
 * [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings)  
 * [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated)  
