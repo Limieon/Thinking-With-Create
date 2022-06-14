@@ -1,0 +1,15 @@
+{
+	"name": "thinking-with-create-scripts",
+	"version": "1.0.0",
+	"description": "Scripts to help me creating my modpack",
+	"main": "index.js",
+	"scripts": {
+		"modlistgenerator": "node ./modlistgenerator.js"
+	},
+	"type": "module",
+	"author": "GMasterHD",
+	"license": "ISC",
+	"dependencies": {
+		"node-fetch": "^3.2.6"
+	}
+}

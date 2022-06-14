@@ -23,6 +23,10 @@ shaderpacks/
 simple-rpc/
 voicechat_recordings/
 
+# Scripts
+scripts/private.json
+scripts/node_modules
+
 # Files
 .curseclient
 minecraftinstance.json
@@ -31,3 +35,5 @@ options.txt
 patchouli_data.json
 realms_persistence.json
 usercache.json
+
+mods.md
