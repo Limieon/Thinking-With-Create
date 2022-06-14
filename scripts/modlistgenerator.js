@@ -8,7 +8,22 @@ const CSV_SEP = ','
 
 console.log('Generating modlist...')
 const mods = []
-const prettyMods = []
+
+// Mods that are not hosted on curseforge or are modified:
+const prettyMods = [
+	{
+		name: 'Terra',
+		link: 'https://modrinth.com/mod/terra',
+		id: 0,
+		authors: ['dfsek', 'sancires']
+	},
+	{
+		name: 'The Twilight Forest',
+		link: 'https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE',
+		id: 227639,
+		authors: ['Benimatic', 'Killer_Demon', 'mcvinnyq', 'GoesBySully', 'Drullkus', 'Tamaized', 'Squiggly_Androsa', 'GizmoTheMoonPig', 'jodlodi', 'MrCompost', 'williewillus', 'AtomicBlom']
+	}
+]
 var file_markdown = ''
 var file_csv = `Name${CSV_SEP}ID${CSV_SEP}CurseForge${CSV_SEP}Authors\n`
 
@@ -60,7 +75,10 @@ fetch('https://api.curseforge.com/v1/mods', {
 		file_markdown += `* [${m.name}](${m.link})  \n`
 		file_csv += `${m.name}${CSV_SEP}${m.id}${CSV_SEP}${m.link}${CSV_SEP}${authors}\n`
 	})
+	
 	console.log('Writing files...')
 	fs.writeFileSync('../mods.md', file_markdown, { encoding: 'utf-8' })
 	fs.writeFileSync('../mods.csv', file_csv, { encoding: 'utf-8' })
+
+	console.log(`Done! Added ${prettyMods.length} mods to the files!`)
 })

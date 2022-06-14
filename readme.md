@@ -50,7 +50,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (156)
+## Mods (157)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -186,7 +186,8 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Space Dimensions (Fabric)](https://www.curseforge.com/minecraft/mc-mods/moon-and-space-dimensions-fabric)  
 * [St'ructure Tools](https://www.curseforge.com/minecraft/mc-mods/structure-tools)  
 * [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)  
-* [Terralith](https://www.curseforge.com/minecraft/mc-mods/terralith)  
+* [Terra](https://modrinth.com/mod/terra)  
+* [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE)  
 * [ToroHealth Damage Indicators](https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators)  
 * [Trading Post [Fabric]](https://www.curseforge.com/minecraft/mc-mods/trading-post-fabric)  
 * [Trinkets (Fabric)](https://www.curseforge.com/minecraft/mc-mods/trinkets)  
@@ -207,3 +208,12 @@ These numbers are pure guesses and are not mathematically calculated!
 * [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)  
 * [megane](https://www.curseforge.com/minecraft/mc-mods/megane)  
 * [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)
+
+# Credits
+## The Twilight Forest
+As The Twilight Forest was not compatible with my modpack, I changed a bit in it's `fabric.mod.json` to make it compatible.
+1. I changed the required fabric api version (from: `0.53.3` to `>=0.53.3`)
+2. I removed the `com_electronwill_night-config_core` and `com_electronwill_night-config_toml` out of the provides, as a other mod already provided it.
+
+## Terra
+Terra's newest versions are not anymore hosted on CurseForge, so I downloaded it from Modrinth ([Modrinth Page](https://modrinth.com/mod/terra), [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/terra-world-generator)) and put it into this pack.
