@@ -13,7 +13,10 @@
 			title: "Andesite?"
 			x: -1.0d
 			y: -5.0d
-			description: ["Andesite is one of the most important resourcees of Create."]
+			description: [
+				"Andesite is one of the most important resourcees of Create."
+				"So, go mining and get a lot of it!"
+			]
 			dependencies: ["430CF1E638FFC189"]
 			id: "1CB7808122451FDA"
 			tasks: [{

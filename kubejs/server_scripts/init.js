@@ -327,6 +327,11 @@ const KubeJS = {
 	starmetal_ingot: 'kubejs:starmetal_ingot',
 	star_ore: 'kubejs:star_ore'
 }
+const Botania = {
+	makeInfusion: (e, item, block, out, mana) => {
+		e.recipes.botania.mana_infusion(out, item, mana, block)
+	}
+}
 
 const Heated = {
 	None: 0,

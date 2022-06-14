@@ -1,60 +1,3 @@
-![Title](./title.png)
-
-First of all, Thinking with Create is greatly inspired by [Create: Above and Beyond](https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond)!
-
-The modpack of course features the Create mod but has also many modern technology mods like
-* Applied Energistics 2
-* Modern Industrialization
-* Tech Reborn
-* Space Biomes 
-
-and so on...
-
-# About
-The goal of this modpack is to combine modern thechnology mods with create. Currently this pack is in high development as not many things have changed.
-
-The next thing, I'm working on is a quest book. The quest book should help you to guide through this modpack, but as this is a **invention themed modpack**, just as create: above and beyond, the questbook won't tell you HOW to build up your factory lines, it only shows you the basic machines and what they do.
-
-## This is an Expert Modpack
-That means, also vanilla recipes have been changed to fit into an expert style pack. 
-Also like some already existing expert modpacks have done, I also halved the output of logs and the amount of sticks per craft.  
-Expert in this terms means not, that you need to be an expert in all of these mods, it only means that this modpack is harder in progression than the average of modpacks.
-
-## Why Fabric?
-Because Fabric is newer, more modern, has better performance optimisation mods such as Sodium and Phosphor and is also out of the box more performant than forge.
-The next reason, why I'm using Fabric, is because I want to use more unknown mods and Fabric mods are currently not that popular. But to be honest, the most important Forge mods are already working on fabric.
-
-
-## Progress - About 10% Done
-These numbers are pure guesses and are not mathematically calculated!
-| Mod                           | Status         |
-|-------------------------------|----------------|
-| Enhanced Quarreis             | Finished       |
-| Modern Dynamics               | 95% Done       |
-| Tom's Simple Storage Mod      | 95% Done       |
-| Applied Energistics           | 70% Done       |
-| Create                        | 40% Done       |
-| XP Obelisks                   | 30% Done       |
-| Tech Reborn                   | 5% Done        |
-| Modern Industrialization      | 2% Done        |
-| Deep Mob Learning             | Not Started    |
-| Croparia                      | Not Started    |
-| Botania                       | Not Started    |
-| Apotheosis                    | Not Started    |
-| Can You Trash It?             | Not Started    |
-| Melon Wireless Redstone       | Not Started    |
-| Wireless Networks             | Not Started    |
-| Dragon Loot                   | Not Integrated |
-| Simple Cobble Stone Generator | Not Started    |
-| AdventureZ and VoidZ          | Not Integrated |
-
-| State | Description |
-| - | - |
-| Finished Mod | is currently finished (but can change) |
-| Not Started | I did not started to tweak recipes |
-| Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
-
-## Mods (160)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -214,12 +157,3 @@ These numbers are pure guesses and are not mathematically calculated!
 * [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)  
 * [megane](https://www.curseforge.com/minecraft/mc-mods/megane)  
 * [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)  
-
-# Credits
-## The Twilight Forest
-As The Twilight Forest was not compatible with my modpack, I changed a bit in it's `fabric.mod.json` file to make it compatible.
-1. I changed the required fabric api version (from: `0.53.3` to `>=0.53.3`)
-2. I removed the `com_electronwill_night-config_core` and `com_electronwill_night-config_toml` out of the provides, as a other mod already provided it.
-
-## Terra
-Terra's newest versions are not anymore hosted on CurseForge, so I downloaded it from Modrinth ([Modrinth Page](https://modrinth.com/mod/terra), [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/terra-world-generator)) and put it into this pack.
