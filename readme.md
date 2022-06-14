@@ -23,6 +23,33 @@ Also like some already existing expert modpacks have done, I also halved the out
 Because Fabric is newer, more modern, has better performance optimisation mods such as Sodium and Phosphor and is also out of the box more performant than forge.
 The next reason, why I'm using Fabric, is because I want to use more unknown mods and Fabric mods are currently not that popular. But to be honest, the most important Forge mods are already working on fabric.
 
+
+## Progress - About 10% Done
+These numbers are pure guesses and are not mathematically calculated!
+| Mod                           | Status         |
+|-------------------------------|----------------|
+| Enhanced Quarreis             | Finished       |
+| Modern Dynamics               | 90% Done       |
+| Applied Energistics           | 70% Done       |
+| Create                        | 40% Done       |
+| XP Obelisks                   | 30% Done       |
+| Tech Reborn                   | 5% Done        |
+| Modern Industrialization      | 1% Done        |
+| Botania                       | Not Started    |
+| Apotheosis                    | Not Started    |
+| Can You Trash It?             | Not Started    |
+| Melon Wireless Redstone       | Not Started    |
+| Wireless Networks             | Not Started    |
+| Dragon Loot                   | Not Integrated |
+| Simple Cobble Stone Generator | Not Started    |
+| AdventureZ and VoidZ          | Not Integrated |
+
+| State | Description |
+| - | - |
+| Finished Mod | is currently finished (but can change) |
+| Not Started | I did not started to tweak recipes |
+| Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
+
 ## Mods (156)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
