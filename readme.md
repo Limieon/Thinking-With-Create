@@ -31,13 +31,14 @@ These numbers are pure guesses and are not mathematically calculated!
 |-------------------------------|----------------|
 | Enhanced Quarreis             | Finished       |
 | Modern Dynamics               | 95% Done       |
+| Tom's Simple Storage Mod      | 95% Done        |
 | Applied Energistics           | 70% Done       |
 | Create                        | 40% Done       |
 | XP Obelisks                   | 30% Done       |
 | Tech Reborn                   | 5% Done        |
 | Modern Industrialization      | 2% Done        |
-| Tom's Simple Storage Mod      | 0% Done        |
 | Deep Mob Learning             | Not Started    |
+| Croparia                      | Not Started    |
 | Botania                       | Not Started    |
 | Apotheosis                    | Not Started    |
 | Can You Trash It?             | Not Started    |
