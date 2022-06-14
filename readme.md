@@ -51,7 +51,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (157)
+## Mods (158)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -189,6 +189,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)  
 * [Terra](https://modrinth.com/mod/terra)  
 * [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE)  
+* [Tom's Simple Storage Mod (Fabric)](https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric)  
 * [ToroHealth Damage Indicators](https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators)  
 * [Trading Post [Fabric]](https://www.curseforge.com/minecraft/mc-mods/trading-post-fabric)  
 * [Trinkets (Fabric)](https://www.curseforge.com/minecraft/mc-mods/trinkets)  
@@ -208,7 +209,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [[Fabric] Tooltip Texts Scroller](https://www.curseforge.com/minecraft/mc-mods/fabric-tooltip-texts-scroller)  
 * [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)  
 * [megane](https://www.curseforge.com/minecraft/mc-mods/megane)  
-* [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)
+* [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)  
 
 # Credits
 ## The Twilight Forest

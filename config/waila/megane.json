@@ -43,7 +43,9 @@
     "colors": {
       "megane:default": 855385,
       "minecraft:water": 4159204,
-      "modern_industrialization:boosted_diesel": 16620298
+      "modern_industrialization:boosted_diesel": 16620298,
+      "modern_industrialization:steam": 15658734,
+      "modern_industrialization:creosote": 6512720
     },
     "blacklist": []
   },

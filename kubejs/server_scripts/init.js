@@ -418,6 +418,26 @@ const ModernIndustrialization = {
 			},
 			item_outputs: outputs
 		})
+	},
+	makeCokeOven: (e, eu, time, input, output, fluid) => {
+		e.custom({
+			type: 'modern_industrialization:coke_oven',
+			eu: eu,
+			duration: time,
+			item_inputs: {
+				item: input.id,
+				amount: input.count == undefined ? 1 : input.count
+			},
+			fluid_outputs: {
+				fluid: fluid.id,
+				amount: fluid.amount,
+				probability: fluid.chance == undefined ? 1 : fluid.chance
+			},
+			item_outputs: {
+				item: output.id,
+				amount: output.count == undefined ? 1 : output.count
+			}
+		})
 	}
 }
 
@@ -470,4 +490,21 @@ onEvent('recipes', e => {
 	DeactivatedItems.forEach(d => {
 		e.remove({ output: d })
 	})
+
+	e.remove({ output: 'minecraft:bucket' })
+	e.shaped('minecraft:bucket', [
+		'P P',
+		' P '
+	], {
+		P: Plates.iron
+	})
+
+	e.shaped('8x minecraft:stick', [ 
+		'SSS',
+		'SBS',
+		'SSS', 
+	], {
+		S: 'minecraft:stick',
+		B: 'modern_industrialization:bucket_creosote'
+	}).replaceIngredient({item: Item.of('modern_industrialization:bucket_creosote')}, 'minecraft:bucket')
 })
