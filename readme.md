@@ -17,7 +17,7 @@ The next thing, I'm working on is a quest book. The quest book should help you t
 
 ## This is an Expert Modpack
 That means, also vanilla recipes have been changed to fit into an expert style pack. 
-Also like some already existing expert modpacks have done, I alos halved the output out of logs and the amount of sticks per craft.
+Also like some already existing expert modpacks have done, I also halved the output of logs and the amount of sticks per craft.
 
 ## Why Fabric?
 Because Fabric is newer, more modern, has better performance optimisation mods such as Sodium and Phosphor and is also out of the box more performant than forge.
@@ -179,4 +179,4 @@ The next reason, why I'm using Fabric, is because I want to use more unknown mod
 * [[Fabric] Tooltip Texts Scroller](https://www.curseforge.com/minecraft/mc-mods/fabric-tooltip-texts-scroller)  
 * [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)  
 * [megane](https://www.curseforge.com/minecraft/mc-mods/megane)  
-* [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twig)
+* [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)
