@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = H:/CurseForge/Minecraft/Instances/Thinking With Create/saves/New World (22)
+}
+

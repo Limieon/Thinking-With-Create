@@ -1,0 +1,152 @@
+{
+	id: "7A24B8CD50919D15"
+	group: ""
+	order_index: 2
+	filename: "logistics"
+	title: "Logistics"
+	icon: "create:belt_connector"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Logistics"
+			icon: "create:belt_connector"
+			x: -0.625d
+			y: -4.375d
+			description: ["This questline will teach you all about logistics in this modpack. We will start at conveyor belts and go on to item pipes!"]
+			size: 1.5d
+			id: "63EE3E6AAF1FF484"
+			tasks: [{
+				id: "13A356C8219B8E74"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.25d
+			description: ["Craft your first mechanical belt"]
+			dependencies: ["63EE3E6AAF1FF484"]
+			id: "0827ADDC52A4C5B5"
+			tasks: [{
+				id: "092063FDB4D93F85"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.25d
+			description: ["This pipe will work like a conveyor, except it can also move items vertically and across corners"]
+			dependencies: ["0827ADDC52A4C5B5"]
+			id: "3CFA299ECD4872FC"
+			tasks: [{
+				id: "74B8917148C510BF"
+				type: "item"
+				item: "moderndynamics:item_pipe"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.25d
+			description: ["This extractor will sug out fluids/items out of containers"]
+			dependencies: [
+				"03EEB0B3F4AAB981"
+				"3CFA299ECD4872FC"
+			]
+			dependency_requirement: "one_completed"
+			id: "451E0E93AFAF9D31"
+			tasks: [{
+				id: "6A9BD06FD8C9E208"
+				type: "item"
+				item: "moderndynamics:extractor"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -1.25d
+			description: [
+				"An attractor increases the speed at which liquids are pumped out of containers"
+				""
+			]
+			dependencies: [
+				"03EEB0B3F4AAB981"
+				"3CFA299ECD4872FC"
+			]
+			id: "0980B9FDF2365687"
+			tasks: [{
+				id: "70B1031F3BFAC95B"
+				type: "item"
+				item: "moderndynamics:attractor"
+			}]
+		}
+		{
+			title: "Mechanical Fluid Pipe"
+			x: 0.25d
+			y: -2.25d
+			description: [
+				"This pipe cannot pump fluids out of sources but will work without a pump"
+				"It also cannot filter fluids"
+			]
+			dependencies: ["19651D9E85F8E106"]
+			id: "03EEB0B3F4AAB981"
+			tasks: [{
+				id: "603FA8CCC0E559B3"
+				type: "item"
+				item: "moderndynamics:fluid_pipe"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -3.25d
+			description: [
+				"This will be your first pipe"
+				"It has to be used with a pump to push liquids along the pipe"
+				"It also can extract liquids out of sources and can filter fluids using a Smart Pipe"
+			]
+			dependencies: ["63EE3E6AAF1FF484"]
+			id: "19651D9E85F8E106"
+			tasks: [
+				{
+					id: "7E10661D4CA57C55"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "4E42F17AA38E22B7"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+			]
+		}
+		{
+			x: -0.625d
+			y: -0.25d
+			description: [
+				"This increases the max length of a pipe by 1000"
+				"Mostly you won't need it"
+			]
+			dependencies: [
+				"0980B9FDF2365687"
+				"451E0E93AFAF9D31"
+			]
+			id: "6FF23023EAA20A2A"
+			tasks: [{
+				id: "0E61022C665F2732"
+				type: "item"
+				item: "moderndynamics:inhibitor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.25d
+			description: ["This can filter items in your pipe"]
+			dependencies: ["3CFA299ECD4872FC"]
+			id: "4EB5F27DEEF6E1A5"
+			tasks: [{
+				id: "1B87FDEC55916D25"
+				type: "item"
+				item: "moderndynamics:filter"
+			}]
+		}
+	]
+}

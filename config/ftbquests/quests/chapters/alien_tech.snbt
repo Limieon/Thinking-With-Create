@@ -1,0 +1,701 @@
+{
+	id: "2CC13B78055E762B"
+	group: ""
+	order_index: 1
+	filename: "alien_tech"
+	title: "Storage Tech"
+	icon: "ae2:controller"
+	subtitle: [
+		"This section will teach you about storage tech"
+		"You will learn about:"
+		"- Simple dedicated Storages"
+		"- up to a entirely storage and autocrafting network"
+		"Let's start!"
+	]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Alien Tech"
+			icon: "ae2:controller"
+			x: 4.5d
+			y: -13.0d
+			description: [
+				"This seciton will teach you, how to get your first mass storage system up and running."
+				""
+				"The so called 'ME System' is not only a storage system, it will also help you (if correctly setup) with crafting an processing tasks"
+			]
+			id: "2A7F03C4C5032902"
+			tasks: [{
+				id: "46CA66FD173219F2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Materials"
+			icon: "ae2:certus_quartz_crystal"
+			x: 4.5d
+			y: -11.25d
+			description: [
+				"Before we get started about storage tech, you firlstly need some basic materials."
+				"Gather these and we move on!"
+			]
+			dependencies: ["2A7F03C4C5032902"]
+			id: "687F9360C71B401B"
+			tasks: [
+				{
+					id: "21AADCF37BCA9A35"
+					type: "item"
+					item: "ae2:certus_quartz_dust"
+					count: 64L
+				}
+				{
+					id: "541CB181FB114F8F"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 32L
+				}
+				{
+					id: "20DFAFC328F76C80"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 32L
+				}
+				{
+					id: "43DDE20B1BA7A5C4"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 16L
+				}
+				{
+					id: "4881DA7C73DE6B0C"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 16L
+				}
+				{
+					id: "24F8F6BA4A1946C0"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 16L
+				}
+				{
+					id: "69951346613B6248"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Better than a crude storage unit"
+			x: 3.5d
+			y: -1.5d
+			description: [""]
+			dependencies: [
+				"43AFF09491D195BD"
+				"29CCBE23FAFB3880"
+			]
+			id: "630D7051223E2CB0"
+			tasks: [{
+				id: "6EC97C5869E68624"
+				type: "item"
+				item: "techreborn:basic_storage_unit"
+			}]
+		}
+		{
+			title: "Dedicated Storages"
+			icon: "techreborn:creative_storage_unit"
+			x: 6.0d
+			y: -3.75d
+			description: ["This line will not show you how to get there, it only shows you the posibilities for dedicated storage tech"]
+			id: "29CCBE23FAFB3880"
+			tasks: [{
+				id: "4DCB68794F949C6D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Better than an basic storage unit"
+			x: 3.5d
+			y: 1.0d
+			dependencies: [
+				"630D7051223E2CB0"
+				"27B20CF8DC6E6611"
+			]
+			id: "4620CEBA7975E94A"
+			tasks: [{
+				id: "3DD26884035D79CD"
+				type: "item"
+				item: "techreborn:advanced_storage_unit"
+			}]
+		}
+		{
+			title: "Better than an advanced storage unit"
+			x: 3.5d
+			y: 3.5d
+			description: [""]
+			dependencies: [
+				"4620CEBA7975E94A"
+				"7E85C0FED7B5C8AD"
+			]
+			id: "1A60BDF30ACA6350"
+			tasks: [{
+				id: "120F4D3AA9EACAD2"
+				type: "item"
+				item: "techreborn:industrial_storage_unit"
+			}]
+		}
+		{
+			title: "Infinite storage! (Nearly)"
+			x: 3.5d
+			y: 6.0d
+			dependencies: [
+				"1A60BDF30ACA6350"
+				"5A1CAACB8832A7B7"
+			]
+			id: "3B136B1E974A689E"
+			tasks: [{
+				id: "30CDC634275721EE"
+				type: "item"
+				item: "techreborn:quantum_storage_unit"
+			}]
+		}
+		{
+			title: "A better bucket"
+			x: 4.5d
+			y: -1.5d
+			dependencies: [
+				"630D7051223E2CB0"
+				"29CCBE23FAFB3880"
+			]
+			id: "71D4F20597198484"
+			tasks: [{
+				id: "2701645EDE23A8A9"
+				type: "item"
+				item: "techreborn:basic_tank_unit"
+			}]
+		}
+		{
+			title: "Better than an basic tank"
+			x: 4.5d
+			y: 1.0d
+			dependencies: [
+				"71D4F20597198484"
+				"4620CEBA7975E94A"
+			]
+			id: "2122618FFE62A33A"
+			tasks: [{
+				id: "05D8E9ED253E4BEE"
+				type: "item"
+				item: "techreborn:advanced_tank_unit"
+			}]
+		}
+		{
+			title: "Better than an advanced tank"
+			x: 4.5d
+			y: 3.5d
+			dependencies: [
+				"2122618FFE62A33A"
+				"1A60BDF30ACA6350"
+			]
+			id: "43BAC53607FB75D1"
+			tasks: [{
+				id: "0B85FAFF9F249910"
+				type: "item"
+				item: "techreborn:industrial_tank_unit"
+			}]
+		}
+		{
+			title: "Infinite tank! (Nearly)"
+			x: 4.5d
+			y: 6.0d
+			description: [""]
+			dependencies: [
+				"43BAC53607FB75D1"
+				"3B136B1E974A689E"
+			]
+			id: "669BF04AD3105DA6"
+			tasks: [{
+				id: "1994512A1CE05E69"
+				type: "item"
+				item: "techreborn:quantum_tank_unit"
+			}]
+		}
+		{
+			x: 1.875d
+			y: -1.875d
+			description: [
+				"The smallest storage component"
+				"All storage components have a max count and a max type count"
+			]
+			dependencies: ["49F4126447C11F18"]
+			size: 1.25d
+			id: "43AFF09491D195BD"
+			tasks: [{
+				id: "6742CC22805E46A6"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: 1.875d
+			y: 0.625d
+			description: ["4k Component"]
+			dependencies: [
+				"43AFF09491D195BD"
+				"21EC0A6ABB503BEA"
+				"3C78F02922EA6EA8"
+			]
+			size: 1.25d
+			id: "27B20CF8DC6E6611"
+			tasks: [{
+				id: "4155507D7386D4D0"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: 1.875d
+			y: 3.125d
+			description: ["16k Component"]
+			dependencies: ["27B20CF8DC6E6611"]
+			hide: false
+			size: 1.25d
+			id: "7E85C0FED7B5C8AD"
+			tasks: [{
+				id: "140698090C1CC6E5"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: 1.875d
+			y: 5.625d
+			description: ["64k Component"]
+			dependencies: ["7E85C0FED7B5C8AD"]
+			size: 1.25d
+			id: "5A1CAACB8832A7B7"
+			tasks: [{
+				id: "09C75DFD29FD4292"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+		}
+		{
+			x: 1.875d
+			y: 8.125d
+			description: ["256k Component"]
+			dependencies: ["5A1CAACB8832A7B7"]
+			size: 1.25d
+			id: "4F2766BC39C038A2"
+			tasks: [{
+				id: "750DDC4A9878A259"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			x: 1.125d
+			y: -6.375d
+			description: ["A printed logic processor"]
+			dependencies: [
+				"031E74859910F23A"
+				"6501D38D1D3C0380"
+			]
+			size: 1.5d
+			id: "49F4126447C11F18"
+			tasks: [{
+				id: "157FDE0CEAC7F8AE"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+		}
+		{
+			x: 0.375d
+			y: -5.25d
+			description: ["A printed calculation processor"]
+			dependencies: [
+				"031E74859910F23A"
+				"1D3B70D6AC3A77F6"
+			]
+			size: 1.5d
+			id: "21EC0A6ABB503BEA"
+			tasks: [{
+				id: "519E1914A5FA2B9C"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+		}
+		{
+			x: -0.375d
+			y: -4.125d
+			description: ["A printed engineering processor"]
+			dependencies: [
+				"031E74859910F23A"
+				"425387EDACAB9121"
+			]
+			size: 1.5d
+			id: "3C78F02922EA6EA8"
+			tasks: [{
+				id: "2E4538329700E090"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+		}
+		{
+			x: 1.875d
+			y: -7.5d
+			description: ["This will be the base of your processors"]
+			dependencies: ["19D6E6995BA90968"]
+			size: 1.5d
+			id: "031E74859910F23A"
+			tasks: [{
+				id: "034284CF03CB6027"
+				type: "item"
+				item: "ae2:printed_silicon"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			description: ["A circuit used to craft a calculation processor"]
+			dependencies: ["19D6E6995BA90968"]
+			id: "1D3B70D6AC3A77F6"
+			tasks: [{
+				id: "1CE1C4438F257598"
+				type: "item"
+				item: "ae2:printed_calculation_processor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			description: ["A circuit used to craft an engineering processor"]
+			dependencies: ["19D6E6995BA90968"]
+			id: "425387EDACAB9121"
+			tasks: [{
+				id: "1324F902E0EB319F"
+				type: "item"
+				item: "ae2:printed_engineering_processor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			description: ["A circuit used to craft a logic processor"]
+			dependencies: ["19D6E6995BA90968"]
+			id: "6501D38D1D3C0380"
+			tasks: [{
+				id: "5687A352D9FCED93"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+		}
+		{
+			title: "Inscriber Presses"
+			x: 4.0d
+			y: -6.5d
+			description: ["These presses are used to create processors in a sequenced assembly. Just use them to get your first prints!"]
+			dependencies: ["2C2987C59C03270D"]
+			id: "19D6E6995BA90968"
+			tasks: [
+				{
+					id: "3C3EBFBF64EE471D"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "1FCAC12D83ED969F"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "182800B177DBC0E8"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "693436463146CB4C"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			x: 1.875d
+			y: 10.625d
+			description: ["1024k Component"]
+			dependencies: ["4F2766BC39C038A2"]
+			size: 1.25d
+			id: "055E215AE1BFCC63"
+			tasks: [{
+				id: "37801AB808DF9C96"
+				type: "item"
+				item: "ae2things:cell_component_1024k"
+			}]
+		}
+		{
+			x: 1.875d
+			y: 13.125d
+			description: ["4096k Component"]
+			dependencies: ["055E215AE1BFCC63"]
+			size: 1.25d
+			id: "075354C6C5078B4C"
+			tasks: [{
+				id: "5F5DD812BF1A600D"
+				type: "item"
+				item: "ae2things:cell_component_4096k"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["This disk will hold up to 1k items but only 63 different types"]
+			dependencies: ["43AFF09491D195BD"]
+			id: "78376859890F8C4B"
+			tasks: [{
+				id: "74A2D6EBED320FBB"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["This disk will hold up to 4k items but only 63 different types"]
+			dependencies: ["27B20CF8DC6E6611"]
+			id: "7F432D6F52F28C57"
+			tasks: [{
+				id: "391C1AA2FDA43E16"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: ["This disk will hold up to 16k items but only 63 different types"]
+			dependencies: ["7E85C0FED7B5C8AD"]
+			id: "1C88FE2F42CBB3A5"
+			tasks: [{
+				id: "457AEEF058B17BF9"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: ["This disk will hold up to 64k items but only 63 different types"]
+			dependencies: ["5A1CAACB8832A7B7"]
+			id: "2DCF6FD86E28B417"
+			tasks: [{
+				id: "1CC5B4232AF52919"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			description: ["This disk will hold up to 256k items but only 63 different types"]
+			dependencies: ["4F2766BC39C038A2"]
+			id: "3ACEF42305D0B14A"
+			tasks: [{
+				id: "420C4801457FE0A1"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			description: ["This disk will hold up to 1024k items but only 63 different types"]
+			dependencies: ["055E215AE1BFCC63"]
+			id: "23FA2B0A9FC6E3E1"
+			tasks: [{
+				id: "5D0D6261B93AB9F5"
+				type: "item"
+				item: {
+					id: "ae2things:item_storage_cell_1024k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 14.0d
+			description: ["This disk will hold up to 4096k items but only 63 different types"]
+			dependencies: ["075354C6C5078B4C"]
+			id: "5D46889A34925101"
+			tasks: [{
+				id: "20D95FD480F591D0"
+				type: "item"
+				item: {
+					id: "ae2things:item_storage_cell_4096k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Crystal Seeds"
+			x: 4.5d
+			y: -10.25d
+			description: [
+				"Now that you have the first basic resources that are needed for an ME System, you need let crystals grow. To let crystals grow, you need to make crystal seeds!"
+				"Get yourself a few seeds and let them grow with the help of water!"
+			]
+			dependencies: ["687F9360C71B401B"]
+			id: "487E48C201C56219"
+			tasks: [
+				{
+					id: "675C6AAF3D9A0EBB"
+					type: "item"
+					item: "ae2:certus_crystal_seed"
+					count: 16L
+				}
+				{
+					id: "4083A2894617D18E"
+					type: "item"
+					item: "ae2:fluix_crystal_seed"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Crystals"
+			x: 4.5d
+			y: -9.25d
+			description: ["Great! Your first crystals have been succesfuly growed up."]
+			dependencies: ["487E48C201C56219"]
+			id: "6523B5B69B0050C4"
+			tasks: [
+				{
+					id: "21DC85F84B6BCB11"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+					count: 16L
+				}
+				{
+					id: "34DD2C800EE2FD68"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Charging"
+			x: 4.5d
+			y: -8.25d
+			description: ["Now that you have your first grown crystal, charge it using a tesla coil!"]
+			dependencies: ["6523B5B69B0050C4"]
+			id: "4782035FCCAC1FAC"
+			tasks: [{
+				id: "595313E0470CA4FD"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.25d
+			description: ["Get a compass and start searching for meteorites"]
+			dependencies: ["4782035FCCAC1FAC"]
+			id: "2C2987C59C03270D"
+			tasks: [{
+				id: "0C5BFDA4213083C2"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			title: "The heart of your Storage System"
+			x: -1.0d
+			y: -3.0d
+			description: [
+				"This controller is the heart of your ME System"
+				"Each side of this block can have one cable connect, to get more connections, build more controllers! Controllers have to be placed in a specific alignment, but let's find it out yourself!"
+			]
+			dependencies: ["3C78F02922EA6EA8"]
+			id: "6CCC296997303629"
+			tasks: [{
+				id: "77EB32089B54A078"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -2.25d
+			description: [
+				"This drive can hold up to 10 disks"
+				"Just insert a disk and connect it up with a controller"
+			]
+			dependencies: ["6CCC296997303629"]
+			id: "47DF1F3856FB989A"
+			tasks: [{
+				id: "0AEAE6EAE9170A93"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			title: "Dense Cable"
+			x: -1.75d
+			y: -2.25d
+			description: [
+				"Everything in your Storage System needs to be connected with cables"
+				"So let's get the cable with the most channels"
+				"To dye this cable, just surround a dye in a crafting table with it"
+			]
+			dependencies: ["6CCC296997303629"]
+			id: "76DD116FB089FD6A"
+			tasks: [{
+				id: "0D6B28A339E45820"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+		}
+		{
+			title: "Glass Cable"
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"This cable can connect from a controller or a dense cable into a terminal"
+				"Some devices needed to connect to a glass cable, some devices can also directly connect to your dense cable"
+				"To dye this cable, just surround a dye in a crafting table with it"
+			]
+			dependencies: ["6CCC296997303629"]
+			id: "49314099BC4337A4"
+			tasks: [{
+				id: "7C21F03D5164CA71"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+		}
+	]
+}

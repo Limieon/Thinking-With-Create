@@ -1,0 +1,92 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
+
+#c:molten_fiery
+- #twilightforest:molten_fiery?
+
+#c:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#c:crude_oil
+
+#c:creosote
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+- milk:flowing_milk?
+- milk:still_milk?
+
+#c:molten_knightmetal
+- #twilightforest:molten_knightmetal?
+
+#twilightforest:molten_fiery
+- twilightforest:molten_fiery?
+- twilightforest:flowing_molten_fiery?
+
+#ae2:blacklisted/annihilation_plane
+
+#tconstruct:tooltips/metal
+- #c:molten_fiery
+- #c:molten_knightmetal
+
+#c:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#c:milk
+- milk:flowing_milk?
+- milk:still_milk?
+
+#c:tea
+- create:flowing_tea
+- create:tea
+
+#twilightforest:molten_knightmetal
+- twilightforest:molten_knightmetal?
+- twilightforest:flowing_molten_knightmetal?
+
+#c:water
+- #minecraft:water?
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava
+
+#c:ethanol
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#c:lava
+- #minecraft:lava?
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#twilightforest:fiery_essence
+- twilightforest:fiery_essence?
+- twilightforest:flowing_fiery_essence?
+
+#create:bottomless/deny
+
+#tconstruct:spilling/metal/cheap
+- #c:molten_fiery
+- #twilightforest:molten_knightmetal
+
+#c:honey
+- create:flowing_honey
+- create:honey
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#c:chocolate
+- create:flowing_chocolate
+- create:chocolate

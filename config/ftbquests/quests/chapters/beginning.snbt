@@ -1,0 +1,475 @@
+{
+	id: "07E90384058A49FD"
+	group: ""
+	order_index: 0
+	filename: "beginning"
+	title: "Early Machines"
+	icon: "create:wrench"
+	subtitle: ["This section will teach you the first create machines"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Andesite?"
+			x: -1.0d
+			y: -5.0d
+			description: ["Andesite is one of the most important resourcees of Create."]
+			dependencies: ["430CF1E638FFC189"]
+			id: "1CB7808122451FDA"
+			tasks: [{
+				id: "13AC98650A366808"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64L
+			}]
+		}
+		{
+			title: "Andesite Alloy"
+			x: -1.0d
+			y: -4.0d
+			description: ["This is the base resource of create. Don't craft too much, later you will get the double output as from now."]
+			dependencies: ["1CB7808122451FDA"]
+			id: "11EE089B12FDFB0C"
+			tasks: [{
+				id: "2953CC4DED7B666F"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16L
+			}]
+		}
+		{
+			title: "Water Wheel"
+			x: -1.5d
+			y: -3.0d
+			description: ["Before you can use your machines, you need energy for them."]
+			dependencies: ["11EE089B12FDFB0C"]
+			id: "7E6B230CEFC0C927"
+			tasks: [{
+				id: "2911FE4432ED0791"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			description: [
+				""
+				"This will be your first Create machine. You will use it to create plates out of ingots and more!"
+			]
+			dependencies: ["11EE089B12FDFB0C"]
+			id: "1494A06EBDA4B250"
+			tasks: [{
+				id: "75D26084BE064977"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			title: "Mechanical Mixer"
+			x: -1.0d
+			y: -2.0d
+			description: ["This mixer will help you by crafting andesite Alloy. You will get twice the output as if you would craft it in your inventory."]
+			dependencies: ["1494A06EBDA4B250"]
+			id: "22852246418EA2E6"
+			tasks: [
+				{
+					id: "412F86A756065542"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "378F5A81398F2BE0"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Get your first Brass Ingot"]
+			dependencies: ["6BE6536CA896E5CA"]
+			id: "79D222545B62BED7"
+			tasks: [{
+				id: "4986E639A7675A2E"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			title: "Blaze Burner"
+			x: -1.0d
+			y: -1.0d
+			description: ["Craft yourself a blaze burner and fill it up with a blaze by rightclickng it with the burner."]
+			dependencies: ["22852246418EA2E6"]
+			id: "6BE6536CA896E5CA"
+			tasks: [
+				{
+					id: "3EC4278FD8F9A6BF"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "3E5AAAF652EF2C64"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+		}
+		{
+			title: "Mechanical Crafter"
+			x: -0.5d
+			y: 2.0d
+			description: [
+				"Craft yourself 21 mechanical crafter to get your first crushing wheels"
+				""
+				"You can automate EVERY crafting recipe using these mechanical crafters. If you have more crafters than your recipes needs slots, you can easily power it using redstone after your recipe is in place"
+			]
+			dependencies: [
+				"4182FF39E2E4E8C1"
+				"2D7D428CB7EDCEC7"
+			]
+			id: "30FFBD88C104737A"
+			tasks: [{
+				id: "08FC9D52A73463D8"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Craft a bit of rose quartz, you will need it later!"]
+			dependencies: ["22852246418EA2E6"]
+			id: "52177BAA2EF88EA1"
+			tasks: [{
+				id: "06C7503BF5637079"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["To use your rose quartz in a crafting recipe, you will need to polish it. Do it by holding rightlick with a Sandpaper on it."]
+			dependencies: ["52177BAA2EF88EA1"]
+			id: "47182B1F5893B77F"
+			tasks: [{
+				id: "7A94DFCA6A646418"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["To automate your first setup, you need to insert items. You can do this by using a funnel! A funnel can also be used for outputing items from a contraption."]
+			dependencies: [
+				"1494A06EBDA4B250"
+				"1EDCDBD00729CE7F"
+			]
+			id: "5A58C79EC4C38E3D"
+			tasks: [{
+				id: "23BC3B310D3329C1"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["Brass funnels are like andesite funnels, except they can accept a filter and can input/output up to a stack at once."]
+			dependencies: [
+				"47182B1F5893B77F"
+				"79D222545B62BED7"
+			]
+			id: "2D7D428CB7EDCEC7"
+			tasks: [{
+				id: "40886BA0A8CF00B6"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["Get yourself some kelp and smoke it in your smoker. You can use it to create mechanical belts and funnels."]
+			id: "1EDCDBD00729CE7F"
+			tasks: [{
+				id: "390EAC6B701F9D98"
+				type: "item"
+				item: "minecraft:kelp"
+				count: 128L
+			}]
+		}
+		{
+			title: "Crushing Wheels"
+			x: 0.0d
+			y: 3.0d
+			description: ["Crushing wheels can be used, well... to crush resources"]
+			dependencies: ["30FFBD88C104737A"]
+			id: "6B432A0243A83AFE"
+			tasks: [{
+				id: "4D7CC8F9F279A111"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["A fan can be used to move items in place, whas, smoke or burn items or push them up in a chute"]
+			dependencies: ["22852246418EA2E6"]
+			id: "399C722C87E47D39"
+			tasks: [{
+				id: "4A3E58FF3B8ACA3E"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["A better hopper"]
+			dependencies: ["399C722C87E47D39"]
+			id: "12346AA6D49ADD06"
+			tasks: [{
+				id: "07A702B3DF404318"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["A smarter better hopper. Can be used to filter items going inside of it"]
+			dependencies: [
+				"79D222545B62BED7"
+				"12346AA6D49ADD06"
+			]
+			id: "67548A866290F521"
+			tasks: [{
+				id: "6E3D0CAA84ADB63E"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["Water wheels are not the best energy source, so let's get a better one! Craft yourself a furance engine and a flywheel to get more kinetic power."]
+			dependencies: ["30FFBD88C104737A"]
+			id: "33E5052AE9AFA019"
+			tasks: [
+				{
+					id: "1F026D0FB55AF4DA"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "2687F38D75363080"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+			]
+		}
+		{
+			title: "Your first Machines!"
+			icon: "minecraft:nether_star"
+			x: -0.5d
+			y: 5.5d
+			description: [
+				"Congratulations! You got your first set of machines up and hopefuly running! To explore more of create just search in your REI for '@create' and hold the 'W' key to ponder about some blocks"
+				""
+				"Now you can progress further into the modpack and get used to more advanced stuff! Good luck!"
+			]
+			dependencies: [
+				"48DD49EA1EE56711"
+				"5DF8DAE3861219D9"
+			]
+			size: 1.5d
+			id: "4B09B0E4A2DECB3B"
+			tasks: [{
+				id: "2A97BC21E5D424B5"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: [
+				"This is by far the hardest quest from now on, but I know you will complete it!"
+				"You cannot simply craft this arm... you have to assemble it! Just check the recipe in your REI, follow the steps and you will get yourself a mechanical arm!"
+				"Good luck with your first Sequenced Assembly!"
+			]
+			dependencies: [
+				"33E5052AE9AFA019"
+				"6B432A0243A83AFE"
+			]
+			id: "48DD49EA1EE56711"
+			tasks: [{
+				id: "46036A03572871D7"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			title: "Needing an helping hand?"
+			x: -1.0d
+			y: 1.0d
+			description: ["This deployer will be used in 'Sequenced Assembly' and with actions, you will normaly do with your hand"]
+			dependencies: [
+				"79D222545B62BED7"
+				"47182B1F5893B77F"
+			]
+			id: "4182FF39E2E4E8C1"
+			tasks: [{
+				id: "4285E60B8F07DE25"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "Fluid Pipes"
+			x: -1.5d
+			y: 2.0d
+			description: ["These pipes are used for fluid transporation. They should be compatible with every other mod's fluid (not gas)"]
+			dependencies: ["67548A866290F521"]
+			id: "1D16C8BD6D33DA94"
+			tasks: [{
+				id: "5C96653583480795"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 32L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: [
+				"To get your fluid, flowing, you need a pump! Craft one, give it kinetic energy, simple!"
+				"By putting a fluid pipes in/output directly on top of water, the water will get sucked into the pipe"
+			]
+			dependencies: ["1D16C8BD6D33DA94"]
+			id: "26A90487E308763C"
+			tasks: [{
+				id: "150167DA3AEBDACB"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.75d
+			description: ["Everything that comes in, stays in, or gets drained out!"]
+			dependencies: ["26A90487E308763C"]
+			id: "59E91F376EE8F11F"
+			tasks: [{
+				id: "4499BB99DBEDDDC6"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.75d
+			description: ["This is the counterpart to the item drain! It does not drain, it fills!"]
+			dependencies: ["59E91F376EE8F11F"]
+			id: "5DF8DAE3861219D9"
+			tasks: [{
+				id: "70825D2E873024E9"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.75d
+			description: ["This contraption cain drain water out of buckets, bottles, milk out of buckets and so on!"]
+			dependencies: ["59E91F376EE8F11F"]
+			id: "48F4FCCA15815A21"
+			tasks: [{
+				id: "1C7B0ECDC8D41ED9"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			title: "Getting honey"
+			icon: "create:honey_bucket"
+			x: -2.5d
+			y: 3.75d
+			description: ["You can get honey by directly pumping it out a bee hive"]
+			dependencies: ["26A90487E308763C"]
+			id: "0F137F3DE83CE35E"
+			tasks: [{
+				id: "162060E9D6E21B4F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pure Observation"
+			x: -2.0d
+			y: -2.0d
+			description: ["This meters will watch about your stress and your speed inside your contraptions"]
+			dependencies: [
+				"7E6B230CEFC0C927"
+				"22852246418EA2E6"
+			]
+			id: "583296BDA351D8ED"
+			tasks: [
+				{
+					id: "65E99656C73A61B7"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "7065ABDA8B0CF785"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["This set of goggles will get you some information about your machines. Just craft one, it's very cheap but very useful"]
+			dependencies: ["583296BDA351D8ED"]
+			id: "22C03608D91F6795"
+			tasks: [{
+				id: "576E2357AB427A8E"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "Early Machines"
+			icon: "create:wrench"
+			x: -1.0d
+			y: -6.875d
+			shape: "gear"
+			description: [
+				"This questline will teach you what are the basic machines and what they can do"
+				"However, as this is an invention themed modpack, you have to assemble your factory lines yourself!"
+				"Just get started, try out and get your factory lines up and running!"
+			]
+			size: 2.0d
+			id: "430CF1E638FFC189"
+		}
+		{
+			x: -3.375d
+			y: -1.75d
+			description: ["This wrench can rotat blocks, break them instantly and configure some Create Machines"]
+			dependencies: ["583296BDA351D8ED"]
+			id: "0410B9105D572856"
+			tasks: [{
+				id: "6A4745703C5A3C3C"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+	]
+}
