@@ -25,21 +25,22 @@ Because Fabric is newer, more modern, has better performance optimisation mods s
 The next reason, why I'm using Fabric, is because I want to use more unknown mods and Fabric mods are currently not that popular. But to be honest, the most important Forge mods are already working on fabric.
 
 
-## Progress - About 10% Done
+## Progress - About 12% Done
 These numbers are pure guesses and are not mathematically calculated!
 | Mod                           | Status         |
 |-------------------------------|----------------|
 | Enhanced Quarreis             | Finished       |
 | Modern Dynamics               | 95% Done       |
 | Tom's Simple Storage Mod      | 95% Done       |
-| Applied Energistics           | 70% Done       |
+| Applied Energistics           | 80% Done       |
 | Create                        | 40% Done       |
 | XP Obelisks                   | 30% Done       |
+| Quests                        | 15% Done       |
+| Botania                       | 5% Done        |
 | Tech Reborn                   | 5% Done        |
 | Modern Industrialization      | 2% Done        |
 | Deep Mob Learning             | Not Started    |
 | Croparia                      | Not Started    |
-| Botania                       | Not Started    |
 | Apotheosis                    | Not Started    |
 | Can You Trash It?             | Not Started    |
 | Melon Wireless Redstone       | Not Started    |
@@ -54,7 +55,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (160)
+## Mods (166)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -68,6 +69,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals)  
 * [Architect's Palette [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/architects-palette-fabric)  
 * [Architectury API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-api)  
+* [Artifacts (Fabric)](https://www.curseforge.com/minecraft/mc-mods/artifacts-fabric)  
 * [Audio Extension for FancyMenu [Fabric]](https://www.curseforge.com/minecraft/mc-mods/audio-extension-for-fancymenu-fabric)  
 * [Auto Config Updated API](https://www.curseforge.com/minecraft/mc-mods/auto-config-updated-api)  
 * [Auudio [Fabric]](https://www.curseforge.com/minecraft/mc-mods/auudio-fabric)  
@@ -81,9 +83,12 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Blur (Fabric)](https://www.curseforge.com/minecraft/mc-mods/blur-fabric)  
 * [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)  
 * [Borderless Mining](https://www.curseforge.com/minecraft/mc-mods/borderless-mining)  
+* [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)  
 * [Botania (Fabric)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)  
 * [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it)  
+* [Cardinal Components](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)  
 * [Chirpy's Wildlife](https://www.curseforge.com/minecraft/mc-mods/chirpys-wildlife)  
+* [Chunky Pregenerator (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)  
 * [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks)  
 * [Cloth Config API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)  
 * [Cloth Config API (UNUSED)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy)  
@@ -100,12 +105,13 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Create Fabric](https://www.curseforge.com/minecraft/mc-mods/create-fabric)  
 * [CreatePlus](https://www.curseforge.com/minecraft/mc-mods/createplus)  
 * [CreativeCore](https://www.curseforge.com/minecraft/mc-mods/creativecore)  
-* [Croptopia [FABRIC/FORGE]](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric)  
+* [Croptopia](https://www.curseforge.com/minecraft/mc-mods/croptopia)  
 * [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings)  
 * [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated)  
 * [Deep Mob Learning: Simulacrum](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-simulacrum)  
 * [DragonLoot](https://www.curseforge.com/minecraft/mc-mods/dragonloot)  
 * [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)  
+* [Eden Ring](https://www.curseforge.com/minecraft/mc-mods/eden-ring)  
 * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)  
 * [Enhanced Quarries (Fabric)](https://www.curseforge.com/minecraft/mc-mods/enhancedquarries)  
 * [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling)  
@@ -193,6 +199,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)  
 * [Terra](https://modrinth.com/mod/terra)  
 * [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE)  
+* [Things [Fabric]](https://www.curseforge.com/minecraft/mc-mods/things-fabric)  
 * [Tom's Simple Storage Mod (Fabric)](https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric)  
 * [ToroHealth Damage Indicators](https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators)  
 * [Trading Post [Fabric]](https://www.curseforge.com/minecraft/mc-mods/trading-post-fabric)  
@@ -213,6 +220,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [[Fabric] Tooltip Texts Scroller](https://www.curseforge.com/minecraft/mc-mods/fabric-tooltip-texts-scroller)  
 * [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)  
 * [megane](https://www.curseforge.com/minecraft/mc-mods/megane)  
+* [oωo (owo-lib)](https://www.curseforge.com/minecraft/mc-mods/owo-lib)  
 * [🪵 Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)  
 
 # Credits
@@ -223,3 +231,6 @@ As The Twilight Forest was not compatible with my modpack, I changed a bit in it
 
 ## Terra
 Terra's newest versions are not anymore hosted on CurseForge, so I downloaded it from Modrinth ([Modrinth Page](https://modrinth.com/mod/terra), [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/terra-world-generator)) and put it into this pack.
+
+## Recommended Commands to run after server setup
+`/gamerule disableElytraMovementCheck true`: Disables Elytra Cheat Detection

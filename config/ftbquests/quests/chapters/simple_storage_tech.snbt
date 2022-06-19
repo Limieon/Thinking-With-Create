@@ -1,0 +1,142 @@
+{
+	id: "272AE4917849D739"
+	group: "65FA95B632EE62DA"
+	order_index: 1
+	filename: "simple_storage_tech"
+	title: "Simple Storage Tech"
+	icon: "minecraft:chest"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Simple Storage Systems"
+			x: -0.125d
+			y: -3.75d
+			shape: "gear"
+			size: 1.5d
+			id: "57C1F4CE95A14183"
+			tasks: [{
+				id: "0E2E418BC925417A"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Larger Storage"
+			x: -0.125d
+			y: -2.5d
+			description: [
+				"Before you build up a storage system, you need a method of storing items!"
+				"Sounds simple, right?"
+			]
+			dependencies: ["57C1F4CE95A14183"]
+			id: "60699F136C83545E"
+			tasks: [{
+				id: "37086108678B7857"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+		}
+		{
+			title: "Connectors"
+			x: -0.125d
+			y: -1.5d
+			description: [
+				"A chest without a connection is not a system, so build up a storage connector and place your chest next to it!"
+				"A storage connector has a range of 16 blocks in each direction, so you can put a lot of chests around it"
+			]
+			dependencies: ["60699F136C83545E"]
+			id: "1AC49FD20A1462C0"
+			tasks: [{
+				id: "4951D60C337300A1"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+		}
+		{
+			title: "Terminal"
+			icon: "toms_storage:ts.crafting_terminal"
+			x: -0.625d
+			y: -0.75d
+			description: [
+				"Use cables and a crafting terminal to view your items in the storage"
+				"Just place a terminal onto a cable connector and connect the cable connector with your storage connector"
+			]
+			dependencies: ["1AC49FD20A1462C0"]
+			id: "748C268AFC2B6CEE"
+			tasks: [
+				{
+					id: "3C7E70A424A9FDD1"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable"
+				}
+				{
+					id: "3F08E11434442A7B"
+					type: "item"
+					item: "toms_storage:ts.crafting_terminal"
+				}
+				{
+					id: "55CFE9212B34D752"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable_connector"
+				}
+			]
+		}
+		{
+			title: "Inventory Cables"
+			x: 0.375d
+			y: -0.75d
+			description: [
+				"Sometimes, some chest are not near your connector"
+				"So you need to connect them with inventory trims!"
+				"Just place the inventory trims like a cable from your connector up to your far away chests!"
+			]
+			dependencies: ["1AC49FD20A1462C0"]
+			id: "7FC531523A82C60A"
+			tasks: [{
+				id: "77CD848E4631253B"
+				type: "item"
+				item: "toms_storage:ts.trim"
+			}]
+		}
+		{
+			title: "Wireless Terminal"
+			x: -0.125d
+			y: 0.0d
+			description: [
+				"If you want, you can build a wireless terminal to acces your storage systems from a greater distance"
+				"As this terminal is not the greatest, you can skip the quest by clicking the checkmark!"
+			]
+			dependencies: [
+				"748C268AFC2B6CEE"
+				"7FC531523A82C60A"
+			]
+			optional: true
+			id: "46ABF4D4E2EBD9CE"
+			tasks: [{
+				id: "0847D4FCFD1745CC"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+		}
+		{
+			title: "Simple Storage Networks Completed!"
+			x: -0.125d
+			y: 1.125d
+			shape: "diamond"
+			subtitle: "Complete! Questline \"Alien Tech\" unlocked!"
+			description: [
+				"Congratulations, as you reaches this quest, you have completed your first storage network!"
+				"The more advanced storage tech Questline \"Alien Tech\" has now been unlocked!"
+			]
+			dependencies: ["46ABF4D4E2EBD9CE"]
+			size: 1.25d
+			id: "12D9E24E1F083349"
+			tasks: [{
+				id: "5841BE731BC609A2"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+	]
+}

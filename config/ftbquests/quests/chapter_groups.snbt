@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "65FA95B632EE62DA", title: "Chapter I" }]
+	chapter_groups: [
+		{ id: "65FA95B632EE62DA", title: "Chapter I" }
+		{ id: "788031312DF1CF00", title: "Chapter II" }
+	]
 }

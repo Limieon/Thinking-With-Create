@@ -1,0 +1,91 @@
+{
+	id: "67D62D9D32C22F74"
+	group: ""
+	order_index: 0
+	filename: "the_quest_hub"
+	title: "The Quest Hub"
+	icon: "minecraft:ender_eye"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Quest Hub"
+			icon: "minecraft:ender_eye"
+			x: -0.75d
+			y: -1.3125d
+			shape: "circle"
+			description: [
+				"This is the QUEST HUB!"
+				"You star unlocking quest by starting them in this hub"
+				"Some questlines have dependencies, others not!"
+			]
+			size: 1.5d
+			id: "1B8506148613166E"
+			tasks: [{
+				id: "4CBC7A256738D87D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Early Machines"
+			icon: "create:wrench"
+			x: -1.875d
+			y: 0.25d
+			description: ["Click the checkmark to start the \"Early Machines\" Questline!"]
+			dependencies: ["1B8506148613166E"]
+			id: "5A22EA23C2953DBC"
+			tasks: [{
+				id: "28CF05A45FE6BD50"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Simple Storage Tech"
+			icon: "minecraft:chest"
+			x: -1.125d
+			y: 0.25d
+			description: ["Click the checkmark to start the \"Simple Storage Tech\" Questline!"]
+			dependencies: ["1B8506148613166E"]
+			id: "5CE6FA2606551EB2"
+			tasks: [{
+				id: "27AF18CCFD305D3C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Logistics MK1"
+			icon: "create:belt_connector"
+			x: 0.375d
+			y: 0.25d
+			description: ["Click the checkmark to start the \"Logistics MK1\" Questline!"]
+			dependencies: ["1B8506148613166E"]
+			id: "75B9ED0F542D8715"
+			tasks: [{
+				id: "6DC34B0EE3A4442E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Beginner Florist"
+			icon: "minecraft:poppy"
+			x: -0.375d
+			y: 0.25d
+			description: ["Click the checkmark to start the \"Beginner Florist\" Questline!"]
+			dependencies: ["1B8506148613166E"]
+			id: "6A287C426A6C8E94"
+			tasks: [{
+				id: "4AA61C1EF708F07B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.875d
+			y: 1.375d
+			id: "1E3553D5C13C1FE4"
+			tasks: [{
+				id: "1677286D9DBF6310"
+				type: "checkmark"
+			}]
+		}
+	]
+}

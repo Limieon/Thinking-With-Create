@@ -1,6 +1,6 @@
 {
 	id: "07E90384058A49FD"
-	group: ""
+	group: "65FA95B632EE62DA"
 	order_index: 0
 	filename: "beginning"
 	title: "Early Machines"
@@ -199,6 +199,8 @@
 			x: 0.5d
 			y: -3.0d
 			description: ["Get yourself some kelp and smoke it in your smoker. You can use it to create mechanical belts and funnels."]
+			dependencies: ["5A22EA23C2953DBC"]
+			hide: true
 			id: "1EDCDBD00729CE7F"
 			tasks: [{
 				id: "390EAC6B701F9D98"
@@ -284,6 +286,7 @@
 			icon: "minecraft:nether_star"
 			x: -0.5d
 			y: 5.5d
+			subtitle: "Wath your Quest Hub!"
 			description: [
 				"Congratulations! You got your first set of machines up and hopefuly running! To explore more of create just search in your REI for '@create' and hold the 'W' key to ponder about some blocks"
 				""
@@ -458,9 +461,18 @@
 				"This questline will teach you what are the basic machines and what they can do"
 				"However, as this is an invention themed modpack, you have to assemble your factory lines yourself!"
 				"Just get started, try out and get your factory lines up and running!"
+				""
+				"You do not need to complete the entire questline to move on!"
 			]
+			dependencies: ["5A22EA23C2953DBC"]
+			hide: true
 			size: 2.0d
 			id: "430CF1E638FFC189"
+			tasks: [{
+				id: "796A5A734947A220"
+				type: "checkmark"
+				title: "Click to move on!"
+			}]
 		}
 		{
 			x: -3.375d

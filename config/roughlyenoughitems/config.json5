@@ -6,9 +6,8 @@
 			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
-			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
-			"{data:{Count:1b,id:\"moderndynamics:extractor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:waxed_exposed_cut_copper_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"ae2:annihilation_plane\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"ae2:green_glass_cable\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		// Declares whether cheating mode is on.

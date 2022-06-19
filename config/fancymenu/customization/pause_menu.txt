@@ -115,14 +115,6 @@ customization {
 }
 
 customization {
-  identifier = %id=374318%
-  orientation = mid-centered
-  x = 82
-  action = movebutton
-  y = -1
-}
-
-customization {
   path = fancymenu_res/title_alt.png
   orientation = mid-centered
   x = -129
@@ -131,5 +123,13 @@ customization {
   actionid = 59360c3c-ac1c-4abf-9b4d-7c0092a222bd1654539235937
   y = -150
   height = 111
+}
+
+customization {
+  identifier = %id=374294%
+  orientation = mid-centered
+  x = 82
+  action = movebutton
+  y = -1
 }
 

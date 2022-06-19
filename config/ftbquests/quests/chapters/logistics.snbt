@@ -1,9 +1,9 @@
 {
 	id: "7A24B8CD50919D15"
-	group: ""
+	group: "65FA95B632EE62DA"
 	order_index: 2
 	filename: "logistics"
-	title: "Logistics"
+	title: "Logistics MK1"
 	icon: "create:belt_connector"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false

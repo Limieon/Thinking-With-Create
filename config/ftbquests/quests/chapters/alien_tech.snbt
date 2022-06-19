@@ -1,9 +1,9 @@
 {
 	id: "2CC13B78055E762B"
-	group: ""
-	order_index: 1
+	group: "788031312DF1CF00"
+	order_index: 0
 	filename: "alien_tech"
-	title: "Storage Tech"
+	title: "Alien Tech"
 	icon: "ae2:controller"
 	subtitle: [
 		"This section will teach you about storage tech"

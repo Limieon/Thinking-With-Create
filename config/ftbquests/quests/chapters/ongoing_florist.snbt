@@ -1,0 +1,11 @@
+{
+	id: "49F2B2146A2964B3"
+	group: "788031312DF1CF00"
+	order_index: 1
+	filename: "ongoing_florist"
+	title: "Ongoing Florist"
+	icon: "botania:white_mystical_flower"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

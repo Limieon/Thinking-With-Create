@@ -21,14 +21,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -106
+  x = -107
   action = movebutton
   y = -8
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 208
+  width = 210
   action = resizebutton
   height = 20
 }
@@ -36,14 +36,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
-  x = -106
+  x = -107
   action = movebutton
   y = 14
 }
 
 customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  width = 103
+  width = 104
   action = resizebutton
   height = 20
 }
@@ -56,14 +56,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -106
+  x = -107
   action = movebutton
   y = -30
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 186
+  width = 188
   action = resizebutton
   height = 20
 }
@@ -89,14 +89,6 @@ customization {
 }
 
 customization {
-  identifier = %id=376334%
-  orientation = mid-centered
-  x = 82
-  action = movebutton
-  y = -30
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -1
@@ -106,7 +98,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 103
+  width = 104
   action = resizebutton
   height = 20
 }
@@ -114,14 +106,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -106
+  x = -107
   action = movebutton
   y = 36
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 208
+  width = 210
   action = resizebutton
   height = 20
 }
@@ -140,5 +132,13 @@ customization {
   actionid = b7c7d81d-ba9c-4e7c-99a6-6b8e94c7cb6e1654637373967
   y = -128
   height = 100
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = mid-centered
+  x = 83
+  action = movebutton
+  y = -30
 }
 

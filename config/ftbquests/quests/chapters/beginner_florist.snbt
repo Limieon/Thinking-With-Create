@@ -1,0 +1,116 @@
+{
+	id: "58E7215DF0B37254"
+	group: "65FA95B632EE62DA"
+	order_index: 3
+	filename: "beginner_florist"
+	title: "Beginner Florist"
+	icon: "minecraft:poppy"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Before we start with flowers, we need the colors of them!"
+				"Get at least one of every mystical palet to continue!"
+			]
+			id: "0682B3768B9955EB"
+			tasks: [
+				{
+					id: "11F18302BD962503"
+					type: "item"
+					item: "botania:white_petal"
+				}
+				{
+					id: "6295816FF29D8B23"
+					type: "item"
+					item: "botania:orange_petal"
+				}
+				{
+					id: "31A71BEE004900EE"
+					type: "item"
+					item: "botania:magenta_petal"
+				}
+				{
+					id: "57FC2F9941C68B46"
+					type: "item"
+					item: "botania:yellow_petal"
+				}
+				{
+					id: "140C05F9E7F20060"
+					type: "item"
+					item: "botania:light_blue_petal"
+				}
+				{
+					id: "13BA674C86B908C3"
+					type: "item"
+					item: "botania:lime_petal"
+				}
+				{
+					id: "79E0E548BA5BB916"
+					type: "item"
+					item: "botania:pink_petal"
+				}
+				{
+					id: "1F8E735F9264DDE0"
+					type: "item"
+					item: "botania:gray_petal"
+				}
+				{
+					id: "4869029E37A018CC"
+					type: "item"
+					item: "botania:light_gray_petal"
+				}
+				{
+					id: "28C1A1D25D4097D1"
+					type: "item"
+					item: "botania:cyan_petal"
+				}
+				{
+					id: "3D7EA5D8859622B2"
+					type: "item"
+					item: "botania:purple_petal"
+				}
+				{
+					id: "5143B5A942B9C765"
+					type: "item"
+					item: "botania:blue_petal"
+				}
+				{
+					id: "0431E4C5F8EEC7CD"
+					type: "item"
+					item: "botania:brown_petal"
+				}
+				{
+					id: "612FF7730318D3E0"
+					type: "item"
+					item: "botania:green_petal"
+				}
+				{
+					id: "2B05A93180BECDBA"
+					type: "item"
+					item: "botania:red_petal"
+				}
+				{
+					id: "2E5014A339B4D68B"
+					type: "item"
+					item: "botania:black_petal"
+				}
+			]
+		}
+		{
+			title: "Beginner Florist"
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			size: 1.5d
+			id: "3DEE7D92AB214FEA"
+			tasks: [{
+				id: "654043D95196FC36"
+				type: "item"
+				item: "minecraft:poppy"
+			}]
+		}
+	]
+}
