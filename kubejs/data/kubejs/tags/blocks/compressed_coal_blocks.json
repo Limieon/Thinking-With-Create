@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"kubejs:compressed_coal_block",
+		"kubejs:compressed_charcoal_block"
+	]
+}

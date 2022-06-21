@@ -325,7 +325,11 @@ const KubeJS = {
 	andesite_drill: 'kubejs:andesite_drill',
 	star_dust: 'kubejs:star_dust',
 	starmetal_ingot: 'kubejs:starmetal_ingot',
-	star_ore: 'kubejs:star_ore'
+	star_ore: 'kubejs:star_ore',
+	charcoal_block: 'kubejs:charcoal_block',
+	compressed_charcoal_block: 'kubejs:compressed_charcoal_block',
+	compressed_coal_block: 'kubejs:compressed_coal_block',
+	liquid_sand: 'kubejs:liquid_glass'
 }
 const Botania = {
 	makeInfusion: (e, item, block, out, mana) => {

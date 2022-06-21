@@ -85,7 +85,7 @@
 			y: -2.25d
 			description: [
 				"This pipe cannot pump fluids out of sources but will work without a pump"
-				"It also cannot filter fluids"
+				"It also cannot filter fluids and will be mouch slower than normal fluid pipes"
 			]
 			dependencies: ["19651D9E85F8E106"]
 			id: "03EEB0B3F4AAB981"
@@ -115,6 +115,11 @@
 					id: "4E42F17AA38E22B7"
 					type: "item"
 					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "0B450854497069C4"
+					type: "item"
+					item: "create:mechanical_pump"
 				}
 			]
 		}

@@ -33,12 +33,12 @@ These numbers are pure guesses and are not mathematically calculated!
 | Modern Dynamics               | 95% Done       |
 | Tom's Simple Storage Mod      | 95% Done       |
 | Applied Energistics           | 80% Done       |
-| Create                        | 40% Done       |
+| Create                        | 45% Done       |
 | XP Obelisks                   | 30% Done       |
-| Quests                        | 15% Done       |
+| Quests                        | 20% Done       |
 | Botania                       | 5% Done        |
-| Tech Reborn                   | 5% Done        |
-| Modern Industrialization      | 2% Done        |
+| Tech Reborn                   | 7% Done        |
+| Modern Industrialization      | 3% Done        |
 | Deep Mob Learning             | Not Started    |
 | Croparia                      | Not Started    |
 | Apotheosis                    | Not Started    |

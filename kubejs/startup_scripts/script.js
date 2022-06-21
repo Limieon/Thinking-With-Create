@@ -70,15 +70,31 @@ onEvent('item.registry', e => {
 
 	e.create('star_dust')
 	e.create('starmetal_ingot')
-
-	e.create('treated_stick')
-	e.create('treated_planks')
 })
 onEvent('block.registry', e => {
 	e.create('star_ore')
 		.material('stone')
 		.hardness(2.5)
 		.tagBlock('minecraft:mineable/pickaxe')
+
+	e.create('compressed_coal_block')
+		.material('stone')
+		.hardness(3)
+		.tagBlock('minecraft:mineable/pickaxe')
+	e.create('compressed_charcoal_block')
+		.material('stone')
+		.hardness(3)
+		.tagBlock('minecraft:mineable/pickaxe')
+	e.create('charcoal_block')
+		.material('stone')
+		.hardness(2)
+		.tagBlock('minecraft:mineable/pickaxe')
+})
+onEvent('fluid.registry', e => {
+	e.create('liquid_glass')
+		.thinTexture(0xCCA137)
+		.bucketColor(0xCCA137)
+		.displayName('Liquified Sand')
 })
 onEvent('block.loot_tables', e => {
 	LootTables.ore(e, 'kubejs:star_ore', 'kubejs:star_dust')
