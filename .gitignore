@@ -27,8 +27,8 @@ scripts/private.json
 scripts/node_modules
 
 # KubeJS
-kubejs/mods/
-kubejs/exported/
+kubejs/mods/**
+kubejs/exported/**
 
 # Files
 .curseclient

@@ -192,6 +192,9 @@ const Gears = {
 	steel: 'modern_industrialization:steel_gear',
 	titanium: 'modern_industrialization:titanium_gear'
 }
+const Nuggets = {
+	diamond: 'techreborn:diamond_nugget'
+}
 const Woods = {
 	oak: {
 		log: 'minecraft:oak_log',
