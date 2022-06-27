@@ -1,18 +1,8 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
-
-#minecraft:shipwreck
-- minecraft:shipwreck
-- minecraft:shipwreck_beached
-
-#minecraft:on_ocean_explorer_maps
-- minecraft:monument
+To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
 
 #minecraft:ocean_ruin
 - minecraft:ocean_ruin_cold
 - minecraft:ocean_ruin_warm
-
-#betterstrongholds:stronghold
-- betterstrongholds:stronghold
 
 #minecraft:mineshaft
 - minecraft:mineshaft
@@ -31,17 +21,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - bettermineshafts:mineshaft_forest
 - bettermineshafts:mineshaft_dripstone
 
+#bosses_of_mass_destruction:void_lily_target
+- bosses_of_mass_destruction:void_blossom
+
 #minecraft:on_woodland_explorer_maps
 - minecraft:mansion
 
-#minecraft:on_treasure_maps
-- minecraft:buried_treasure
+#bosses_of_mass_destruction:soul_star_target
+- bosses_of_mass_destruction:lich_tower
 
 #yigd:graveyard_structures
 - graveyard:small_graveyard
 - graveyard:medium_graveyard
 - graveyard:large_graveyard
 - graveyard:small_desert_graveyard
+
+#minecraft:shipwreck
+- minecraft:shipwreck
+- minecraft:shipwreck_beached
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument
+
+#betterstrongholds:stronghold
+- betterstrongholds:stronghold
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure
 
 #minecraft:eye_of_ender_located
 - minecraft:stronghold

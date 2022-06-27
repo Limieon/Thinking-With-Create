@@ -32,6 +32,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Enhanced Quarreis             | Finished       |
 | Modern Dynamics               | 95% Done       |
 | Tom's Simple Storage Mod      | 95% Done       |
+| Simple Cobble Stone Generator | 90% Done       |
 | Applied Energistics           | 80% Done       |
 | Create                        | 45% Done       |
 | XP Obelisks                   | 30% Done       |
@@ -46,7 +47,6 @@ These numbers are pure guesses and are not mathematically calculated!
 | Melon Wireless Redstone       | Not Started    |
 | Wireless Networks             | Not Started    |
 | Dragon Loot                   | Not Integrated |
-| Simple Cobble Stone Generator | Not Started    |
 | AdventureZ and VoidZ          | Not Integrated |
 
 | State | Description |

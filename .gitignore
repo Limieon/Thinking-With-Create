@@ -28,6 +28,7 @@ scripts/node_modules
 
 # KubeJS
 kubejs/mods/
+kubejs/exported/
 
 # Files
 .curseclient
@@ -37,3 +38,4 @@ options.txt
 patchouli_data.json
 realms_persistence.json
 usercache.json
+TODO.txt

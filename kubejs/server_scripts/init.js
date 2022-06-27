@@ -1,6 +1,6 @@
 // priority: 9999
 
-settings.logAddedRecipes = false
+settings.logAddedRecipes = true
 settings.logRemovedRecipes = false
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
@@ -11,6 +11,7 @@ const Ingots = {
 	diamond: 'minecraft:diamond',
 	gold: 'minecraft:gold_ingot',
 	netherite: 'minecraft:netherite_ingot',
+	carbon: 'minecraft:coal',
 	aluminum: 'modern_industrialization:aluminum_ingot',
 	netherBrass: 'architects_palette:nether_brass_ingot',
 	aeterium: 'betterend:aetherium_ingot',
@@ -30,9 +31,9 @@ const Ingots = {
 	batteryAlloy: 'modern_industrialization:battery_alloy_ingot',
 	beryllium: 'modern_industrialization:beryllium_ingot',
 	mixedBlastproof: 'modern_industrialization:mixed_ingot_blastproof',
-	bloastproofAlloy: 'modern_industrialization:blastproof_alloy_ingot',
+	blastproofAlloy: 'modern_industrialization:blastproof_alloy_ingot',
 	bronze: 'modern_industrialization:bronze_ingot',
-	cadium: 'modern_industrialization:cadium_ingot',
+	cadmium: 'modern_industrialization:cadmium_ingot',
 	chromiumHot: 'modern_industrialization:chromium_hot_ingot',
 	chromium: 'modern_industrialization:chromium_ingot',
 	cupronickel: 'modern_industrialization:cupronickel_ingot',
@@ -99,7 +100,7 @@ const Plates = {
 	mixedBlastproof: 'modern_industrialization:mixed_plate_blastproof',
 	blastproofAlloy: 'modern_industrialization:blastproof_alloy_plate',
 	bronze: 'modern_industrialization:bronze_plate',
-	cadium: 'modern_industrialization:cadium_plate',
+	cadmium: 'modern_industrialization:cadmium_plate',
 	chromium: 'modern_industrialization:chromium_plate',
 	cupronickel: 'modern_industrialization:cupronickel_plate',
 	diamond: 'modern_industrialization:diamond_plate',
@@ -149,6 +150,19 @@ const LargePlates = {
 	tin: 'modern_industrialization:tin_large_plate',
 	titanium: 'modern_industrialization:titanium_large_plate',
 	tungsten: 'modern_industrialization:tungsten_large_plate',
+}
+const CurvedPlates = {
+	aluminum: 'modern_industrialization:aluminum_curved_plate',
+	batteryAlloy: 'modern_industrialization:battery_alloy_curved_plate',
+	blastproofAlloy: 'modern_industrialization:blastproof_alloy_curved_plate',
+	bronze: 'modern_industrialization:bronze_curved_plate',
+	copper: 'modern_industrialization:copper_curved_plate',
+	gold: 'modern_industrialization:gold_curved_plate',
+	iridium: 'modern_industrialization:iridium_curved_plate',
+	stainlessSteel: 'modern_industrialization:stainless_steel_curved_plate',
+	steel: 'modern_industrialization:steel_curved_plate',
+	tin: 'modern_industrialization:tin_curved_plate',
+	titanium: 'modern_industrialization:titanium_curved_plate'
 }
 const Wires = {
 	aluminum: 'modern_industrialization:aluminum_wire',
@@ -270,6 +284,23 @@ const Woods = {
 	dreamwood: {
 		log: 'botania:dreamwood_log',
 		planks: 'botania:dreamwood_planks'
+	},
+	// Eden Ring
+	auritis: {
+		log: 'edenring:auritis_log',
+		planks: 'edenring:auritis_planks'
+	},
+	ballonMushroom: {
+		log: 'edenring:balloon_mushroom_log',
+		planks: 'edenring:balloon_mushroom_planks'
+	},
+	pulseTree: {
+		log: 'edenring:pulse_tree_log',
+		planks: 'edenring:pulse_tree_planks'
+	},
+	brainTree: {
+		log: 'edenring:brain_tree_log',
+		planks: 'edenring:brain_tree_planks'
 	}
 }
 
@@ -456,7 +487,6 @@ console.info('Initializing...')
 
 onEvent('recipes', e => {
 	Object.keys(Plates).forEach(plate => {
-		console.info(`Removing: ${Plates[plate].replace('modern_industrialization', 'techreborn')}`)
 		e.remove({
 			output: Plates[plate]
 		})

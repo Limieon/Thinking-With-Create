@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
 
 #c:climate_wet
 - #c:aquatic?
@@ -397,6 +397,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:has_structure/shipwreck
 - #minecraft:is_ocean
 
+#bosses_of_mass_destruction:has_structure/obsidilith_arena
+- #bosses_of_mass_destruction:collections/in_end
+
 #c:snowy_plains
 - minecraft:snowy_plains
 
@@ -542,6 +545,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #c:dead
 
+#bosses_of_mass_destruction:has_structure/lich_tower
+- #bosses_of_mass_destruction:collections/cold
+
 #c:deep_ocean
 - minecraft:deep_frozen_ocean
 - minecraft:deep_lukewarm_ocean
@@ -670,6 +676,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - twilightforest:mushroom_forest
 - twilightforest:oak_savannah
 - twilightforest:spooky_forest
+
+#bosses_of_mass_destruction:collections/in_overworld
+- #minecraft:is_badlands
+- #minecraft:is_deep_ocean
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
 
 #minecraft:has_structure/ruined_portal_jungle
 - #minecraft:is_jungle
@@ -895,6 +927,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:windswept_savanna
 - minecraft:dripstone_caves
 - minecraft:lush_caves
+
+#bosses_of_mass_destruction:has_structure/void_blossom
+- #bosses_of_mass_destruction:collections/in_overworld
 
 #croptopia:has_crop/yam
 - minecraft:savanna
@@ -1198,6 +1233,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:jacaranda_forest?
 - byg:tropical_rainforest?
 
+#bosses_of_mass_destruction:collections/cold
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:ice_spikes
+- minecraft:snowy_plains
+- minecraft:frozen_peaks
+- minecraft:snowy_beach
+- minecraft:frozen_ocean
+
 #bettermineshafts:has_structure/has_mineshaft_mesa
 - #minecraft:is_badlands
 
@@ -1357,6 +1402,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #twilightforest:valid_knight_stronghold_biomes
 - twilightforest:dark_forest
 
+#bosses_of_mass_destruction:collections/in_nether
+- #minecraft:is_nether
+
 #c:plains
 - minecraft:sunflower_plains
 - minecraft:plains
@@ -1471,6 +1519,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:has_structure/nether_fossil
 - minecraft:soul_sand_valley
 
+#bosses_of_mass_destruction:has_structure/gauntlet_arena
+- #bosses_of_mass_destruction:collections/in_nether
+
 #c:vegetation_sparse
 - #c:savanna?
 - #c:desert?
@@ -1513,6 +1564,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #c:extreme_hills
 - minecraft:windswept_gravelly_hills
 - minecraft:windswept_hills
+
+#bosses_of_mass_destruction:collections/in_end
+- minecraft:end_highlands
+- minecraft:end_midlands
+- minecraft:small_end_islands
+- minecraft:end_barrens
+- byg:ivis_fields?
+- byg:nightshade_forest?
+- byg:ethereal_islands?
+- byg:viscal_isles?
+- byg:bulbis_gardens?
+- byg:shulkren_forest?
+- byg:cryptic_wastes?
+- byg:imparius_grove?
 
 #bettermineshafts:has_structure/has_mineshaft_jungle
 - #minecraft:is_jungle

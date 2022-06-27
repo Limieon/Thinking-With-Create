@@ -1,0 +1,104 @@
+{
+	id: "253BD0992741DC70"
+	group: ""
+	order_index: 1
+	filename: "tech_tree"
+	title: "Tech Tree"
+	icon: "modern_industrialization:wrench"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Building Gadget"
+			icon: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						data: { }
+						state: {
+							Name: "minecraft:air"
+						}
+						serializer: "buildinggadgets:dummy_serializer"
+					}
+					energy: 500000.0d
+				}
+			}
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Recipe \"Building Gadget\" unlocked!"
+			id: "7BFE18CACDE1B49E"
+			tasks: [{
+				id: "678B193AB292C984"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "57759DD4776B458A"
+				type: "command"
+				title: "Building Gadget"
+				icon: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							data: { }
+							state: {
+								Name: "minecraft:air"
+							}
+							serializer: "buildinggadgets:dummy_serializer"
+						}
+						energy: 500000.0d
+					}
+				}
+				auto: "enabled"
+				command: "/recipe give @p buildinggadgets:gadget_building"
+				player_command: false
+			}]
+		}
+		{
+			title: "Exchanging Gadget"
+			icon: {
+				id: "buildinggadgets:gadget_exchanging"
+				Count: 1b
+				tag: {
+					state: {
+						data: { }
+						state: {
+							Name: "minecraft:air"
+						}
+						serializer: "buildinggadgets:dummy_serializer"
+					}
+					energy: 500000.0d
+				}
+			}
+			x: 0.25d
+			y: -0.5d
+			subtitle: "Recipe \"Building Gadget\" unlocked!"
+			id: "5E715142A3FB461E"
+			tasks: [{
+				id: "7FCF1D2D14ADF956"
+				type: "kill"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "33B518BD2D5699BA"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							data: { }
+							state: {
+								Name: "minecraft:air"
+							}
+							serializer: "buildinggadgets:dummy_serializer"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

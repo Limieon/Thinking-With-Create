@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -87,6 +87,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - quark:frog?
 
 #c:bosses
+- adventurez:stone_golem
+- adventurez:the_eye
+- adventurez:void_shadow
 - botania:doppleganger
 - minecraft:ender_dragon
 - minecraft:wither
@@ -101,6 +104,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:blaze
 - minecraft:hoglin
 - minecraft:zoglin
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
 
 #botania:shaded_mesa_blacklist
 - minecraft:ender_dragon
@@ -151,6 +162,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - twilightforest:mosquito_swarm
 - twilightforest:towerwood_borer
 
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
 #minecraft:axolotl_hunt_targets
 - minecraft:tropical_fish
 - minecraft:pufferfish
@@ -158,6 +172,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:cod
 - minecraft:squid
 - minecraft:glow_squid
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
 
 #botania:cocoon/common_aquatic
 - minecraft:cod
@@ -208,6 +225,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:wither_skeleton
 - minecraft:stray
 
+#twilightforest:sortable_entities
+- minecraft:chest_minecart
+- minecraft:hopper_minecart
+- minecraft:llama
+- minecraft:trader_llama
+- minecraft:donkey
+- minecraft:mule
+
 #dml-refabricated:ocean_mobs
 - minecraft:guardian
 - minecraft:drowned
@@ -238,9 +263,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #twilightforest:dont_kill_bugs
 - twilightforest:cicada_shot
 - twilightforest:moonworm_shot
-- twilightforest:cicada_slingshot?
-- twilightforest:firefly_slingshot?
-- twilightforest:moonworm_slingshot?
 
 #tradingpost:blacklisted_traders
 

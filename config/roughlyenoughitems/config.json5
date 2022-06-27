@@ -8,7 +8,9 @@
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
 			"{data:{Count:1b,id:\"ae2:annihilation_plane\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"ae2:green_glass_cable\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:weathered_cut_copper_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"minecraft:weathered_cut_copper_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:polished_diorite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:raw_copper_block\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		// Declares whether cheating mode is on.
@@ -92,7 +94,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 0.93,
+			"entrySize": 1.0050000000000001,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares how the scrollbar in composite screen should act.

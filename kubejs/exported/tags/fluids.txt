@@ -1,7 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
-
-#c:molten_fiery
-- #twilightforest:molten_fiery?
+To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
 
 #c:biofuel
 - createaddition:flowing_bioethanol
@@ -22,19 +19,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - createaddition:seed_oil
 - milk:flowing_milk?
 - milk:still_milk?
-
-#c:molten_knightmetal
-- #twilightforest:molten_knightmetal?
-
-#twilightforest:molten_fiery
-- twilightforest:molten_fiery?
-- twilightforest:flowing_molten_fiery?
+- xps:xp_fluid
+- xps:flowing_xp
 
 #ae2:blacklisted/annihilation_plane
-
-#tconstruct:tooltips/metal
-- #c:molten_fiery
-- #c:molten_knightmetal
 
 #c:plantoil
 - createaddition:flowing_seed_oil
@@ -47,10 +35,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #c:tea
 - create:flowing_tea
 - create:tea
-
-#twilightforest:molten_knightmetal
-- twilightforest:molten_knightmetal?
-- twilightforest:flowing_molten_knightmetal?
 
 #c:water
 - #minecraft:water?
@@ -69,15 +53,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:lava
 - minecraft:flowing_lava
 
-#twilightforest:fiery_essence
-- twilightforest:fiery_essence?
-- twilightforest:flowing_fiery_essence?
-
 #create:bottomless/deny
-
-#tconstruct:spilling/metal/cheap
-- #c:molten_fiery
-- #twilightforest:molten_knightmetal
 
 #c:honey
 - create:flowing_honey

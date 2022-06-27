@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 5, 2022, 6:59:03 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
 
 #c:weapon_damage_enhancement
 - minecraft:bane_of_arthropods
