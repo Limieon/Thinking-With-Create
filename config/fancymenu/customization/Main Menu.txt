@@ -54,6 +54,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376310%
+  orientation = mid-centered
+  x = 83
+  action = movebutton
+  y = -30
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -107
@@ -124,6 +132,52 @@ customization {
 }
 
 customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 63639463-cbb5-4a5a-b462-7ff236b0fcef1656363643818
+  y = 415
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 477
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = dd7aad9d-4224-42bc-b2bd-8eac9af9f0bb1656363643823
+  y = 206
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 237
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 8696dcdc-5193-421f-8fd7-19024782d6801656363643824
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e60621e8-b863-414a-a5f8-861043795e871656363643824
+  y = 0
+  height = 30
+}
+
+customization {
   path = fancymenu_res/title_alt.png
   orientation = mid-centered
   x = -118
@@ -132,13 +186,5 @@ customization {
   actionid = b7c7d81d-ba9c-4e7c-99a6-6b8e94c7cb6e1654637373967
   y = -128
   height = 100
-}
-
-customization {
-  identifier = %id=376310%
-  orientation = mid-centered
-  x = 83
-  action = movebutton
-  y = -30
 }
 

@@ -24,14 +24,16 @@
       "modern_industrialization": 11993088,
       "dmlsimulacrum": 12588052,
       "techreborn": 8390656,
-      "enhanced_quarries": 7408640
+      "enhanced_quarries": 7408640,
+      "alloy_forgery": 15684178
     },
     "units": {
       "megane": "E",
       "modern_industrialization": "EU",
       "dmlsimulacrum": "E",
       "techreborn": "E",
-      "enhanced_quarries": "E"
+      "enhanced_quarries": "E",
+      "alloy_forgery": ""
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -45,7 +47,8 @@
       "minecraft:water": 4159204,
       "modern_industrialization:boosted_diesel": 16620298,
       "modern_industrialization:steam": 15658734,
-      "modern_industrialization:creosote": 6512720
+      "modern_industrialization:creosote": 6512720,
+      "minecraft:lava": 13916690
     },
     "blacklist": []
   },

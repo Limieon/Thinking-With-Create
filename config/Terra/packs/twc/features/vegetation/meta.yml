@@ -1,0 +1,21 @@
+plantable-blocks:
+  - minecraft:grass_block
+  - minecraft:podzol
+  - minecraft:dirt
+  - minecraft:coarse_dirt
+  - minecraft:moss_block
+  - minecraft:rooted_dirt
+
+aquatic-plantable-blocks:
+  - minecraft:sand
+  - minecraft:gravel
+
+sugarcane-plantable-blocks:
+  - minecraft:sand
+  - minecraft:red_sand
+  - minecraft:grass_block
+  - minecraft:podzol
+  - minecraft:dirt
+  - minecraft:coarse_dirt
+  - minecraft:moss_block
+  - minecraft:rooted_dirt

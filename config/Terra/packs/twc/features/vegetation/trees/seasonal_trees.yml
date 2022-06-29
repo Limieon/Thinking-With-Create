@@ -1,0 +1,40 @@
+id: SEASONAL_TREES
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 8
+  padding: 2
+  salt: 1931
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 64
+        max: 255
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks: $features/vegetation/meta.yml:plantable-blocks
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:snow
+          - minecraft:air
+        offset: 0
+
+structures:
+  distribution:
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.02
+  structures:
+    - blank: 4
+    - autumnal_birch_tree_procedural: 3
+    - spruce_tree_procedural: 2

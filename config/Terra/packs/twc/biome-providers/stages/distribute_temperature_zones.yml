@@ -1,0 +1,100 @@
+
+# Splits elevation zones into temperature zones.
+
+# These temperature zones are then later split into different
+# precipitation zones by the distribute_precipitation_zones.yml file.
+# Zones unaffected by precipitation such oceanic, coastal, and
+# polar as are handled in the distribute_variants.yml file instead.
+
+temperature-map: &temperature-map
+  dimensions: 2
+  type: FBM
+  octaves: 2
+  sampler:
+    type: OPEN_SIMPLEX_2
+    frequency: 1 / ${meta.yml:biome-distribution.temperature-scale} / ${meta.yml:biome-distribution.global-scale}
+    salt: 53
+
+stages:
+  - type: REPLACE_LIST
+    sampler: *temperature-map
+    
+    default-from: deep-ocean
+    default-to:
+      - deep-ocean-tropical: 6
+      - deep-ocean-subtropical: 5
+      - deep-ocean-temperate: 4
+      - deep-ocean-boreal: 5
+      - deep-ocean-polar: 6
+    
+    to:
+
+      ocean:
+        - ocean-tropical: 6
+        - ocean-subtropical: 5
+        - ocean-temperate: 4
+        - ocean-boreal: 5
+        - ocean-polar: 6
+  
+      coast-flat:
+        - coast-flat-tropical: 6
+        - coast-flat-subtropical: 5
+        - coast-flat-temperate: 4
+        - coast-flat-boreal: 5
+        - coast-flat-polar: 6
+  
+      coast-hills:
+        - coast-hills-tropical: 6
+        - coast-hills-subtropical: 5
+        - coast-hills-temperate: 4
+        - coast-hills-boreal: 5
+        - coast-hills-polar: 6
+  
+      coast-mountains-small:
+        - coast-mountains-small-tropical: 6
+        - coast-mountains-small-subtropical: 5
+        - coast-mountains-small-temperate: 4
+        - coast-mountains-small-boreal: 5
+        - coast-mountains-small-polar: 6
+  
+      coast-mountains-large:
+        - coast-mountains-large-tropical: 6
+        - coast-mountains-large-subtropical: 5
+        - coast-mountains-large-temperate: 4
+        - coast-mountains-large-boreal: 5
+        - coast-mountains-large-polar: 6
+  
+      flat:
+        - flat-tropical: 6
+        - flat-subtropical: 5
+        - flat-temperate: 4
+        - flat-boreal: 5
+        - flat-polar: 6
+  
+      hills-small:
+        - hills-small-tropical: 6
+        - hills-small-subtropical: 5
+        - hills-small-temperate: 4
+        - hills-small-boreal: 5
+        - hills-small-polar: 6
+
+      hills-large:
+        - hills-large-tropical: 6
+        - hills-large-subtropical: 5
+        - hills-large-temperate: 4
+        - hills-large-boreal: 5
+        - hills-large-polar: 6
+
+      mountains-small:
+        - mountains-small-tropical: 6
+        - mountains-small-subtropical: 5
+        - mountains-small-temperate: 4
+        - mountains-small-boreal: 5
+        - mountains-small-polar: 6
+
+      mountains-large:
+        - mountains-large-tropical: 6
+        - mountains-large-subtropical: 5
+        - mountains-large-temperate: 4
+        - mountains-large-boreal: 5
+        - mountains-large-polar: 6

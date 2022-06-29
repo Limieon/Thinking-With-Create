@@ -550,3 +550,9 @@ onEvent('recipes', e => {
 		B: 'modern_industrialization:bucket_creosote'
 	}).replaceIngredient({item: Item.of('modern_industrialization:bucket_creosote')}, 'minecraft:bucket')
 })
+
+const Liquid = {
+	of: (f, a) => {
+		return { fluidTag: f, amount: a * 81 }
+	}
+}

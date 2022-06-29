@@ -19,27 +19,9 @@ B:advancedmode = 'true';
 B:showcustomizationbuttons = 'true';
 
 
-##[mainmenu]
-
-B:hidebranding = 'false';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'true';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'true';
-S:splashtextfile = '';
-S:splashorientation = 'original';
-
-
 ##[loading]
 
-B:allowgameintroskip = 'true';
+B:allowgameintroskip = 'false';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';

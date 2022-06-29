@@ -2,11 +2,11 @@
 onEvent('recipes', e => {
 	// Remove wood recipes
 	Object.keys(Woods).forEach(k => {
-		/*e.remove({
+		e.remove({
 			input: '#minecraft:logs',
-			output: Woods[k].planks,b
+			output: Woods[k].planks,
 			type: 'minecraft:crafting_shapeless'
-		})*/
+		})
 	})
 
 	// Add them back

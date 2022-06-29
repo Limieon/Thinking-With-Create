@@ -36,6 +36,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Applied Energistics           | 80% Done       |
 | Create                        | 45% Done       |
 | XP Obelisks                   | 30% Done       |
+| Terra                         | 20% Done       |
 | Quests                        | 20% Done       |
 | Botania                       | 5% Done        |
 | Tech Reborn                   | 7% Done        |
@@ -55,11 +56,13 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (166)
+## Mods (165)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
+* [ARRP](https://www.curseforge.com/minecraft/mc-mods/arrp)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
 * [AdventureZ](https://www.curseforge.com/minecraft/mc-mods/adventurez)  
+* [Alloy Forgery](https://www.curseforge.com/minecraft/mc-mods/alloy-forgery)  
 * [Alternate Current](https://www.curseforge.com/minecraft/mc-mods/alternate-current)  
 * [AmbientSounds 5](https://www.curseforge.com/minecraft/mc-mods/ambientsounds)  
 * [Animal Feeding Trough [Fabric | Forge | Quilt]](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)  
@@ -84,7 +87,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)  
 * [Borderless Mining](https://www.curseforge.com/minecraft/mc-mods/borderless-mining)  
 * [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)  
-* [Botania (Fabric)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)  
+* [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)  
 * [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it)  
 * [Cardinal Components](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)  
 * [Chirpy's Wildlife](https://www.curseforge.com/minecraft/mc-mods/chirpys-wildlife)  
@@ -123,6 +126,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [FTB Teams (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)  
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)  
 * [Fabric Language Kotlin](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)  
+* [Fabric Waystones](https://www.curseforge.com/minecraft/mc-mods/fabric-waystones)  
 * [FancyMenu [Fabric]](https://www.curseforge.com/minecraft/mc-mods/fancymenu-fabric)  
 * [Farmer's Delight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric)  
 * [FerriteCore (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)  
@@ -153,7 +157,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Legendary Tooltips [Fabric]](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric)  
 * [Lib Block Attributes](https://www.curseforge.com/minecraft/mc-mods/libblockattributes)  
 * [Light Overlay (Rift/Forge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)  
-* [Lightest Lamps (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/lightest-lamps-fabric)  
 * [Lithium (Fabric)](https://www.curseforge.com/minecraft/mc-mods/lithium)  
 * [Load My Resources [Fabric]](https://www.curseforge.com/minecraft/mc-mods/load-my-resources-fabric)  
 * [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection)  
@@ -171,6 +174,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)  
 * [Modern Industrialization](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization)  
 * [More Axolotls](https://www.curseforge.com/minecraft/mc-mods/more-axolotls)  
+* [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)  
 * [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass)  
 * [NetherPortalFix (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/netherportalfix-fabric)  
 * [New Telekinesis Enchantment](https://www.curseforge.com/minecraft/mc-mods/telekinesis-enchantment-fabric)  
@@ -189,7 +193,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Roughly Enough Resources](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources)  
 * [ShetiPhianCore [Fabric]](https://www.curseforge.com/minecraft/mc-mods/shetiphiancore-fabric)  
 * [ShulkerBoxTooltip](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)  
-* [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)  
 * [Smooth Boot (Fabric)](https://www.curseforge.com/minecraft/mc-mods/smooth-boot)  
 * [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)  
 * [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra)  
@@ -207,7 +210,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Visual Workbench [Fabric]](https://www.curseforge.com/minecraft/mc-mods/visual-workbench-fabric)  
 * [VoidZ](https://www.curseforge.com/minecraft/mc-mods/voidz)  
 * [WTHIT](https://www.curseforge.com/minecraft/mc-mods/wthit)  
-* [Waystones (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric)  
 * [Wireless Networks](https://www.curseforge.com/minecraft/mc-mods/wireless-networks)  
 * [XP Obelisk](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk)  
 * [YUNG's API (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric)  

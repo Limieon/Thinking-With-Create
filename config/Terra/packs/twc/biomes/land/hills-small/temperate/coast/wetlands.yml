@@ -1,0 +1,7 @@
+id: WETLANDS
+type: BIOME
+extends: [ EQ_BUTTES_WETLANDS, ARCHIPELAGO ]
+color: $biomes/colors.yml:WETLANDS
+
+tags:
+  - USE_RIVER_FLAT
