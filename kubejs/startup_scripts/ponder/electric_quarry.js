@@ -1,6 +1,4 @@
 
-// priority: 0
-
 onEvent("ponder.tag", e => {
 	e.createTag('kubejs:modern_industrialization', 'modern_industrialization:wrench', 'Modern Industrialization', 'We ponder now!', [
 		'modern_industrialization:electric_quarry'

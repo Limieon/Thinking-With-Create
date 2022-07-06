@@ -7,4 +7,7 @@ onEvent('recipes', e => {
 	Create.makeEmptying(e, 'dmlsimulacrum:extraterrestrial_matter', 'xps:xp_fluid', 190)
 
 	Create.makeFilling(e, 'minecraft:glass_bottle', 'xps:xp_fluid', 30, 'create:experience_nugget')
+
+	e.remove({ output: 'xps:soul_copper_ingot' })
+	Create.makeMixing(e, [ Ingots.copper, 'minecraft:soul_sand' ], 'xps:soul_copper_ingot', Heated.Heated)
 })

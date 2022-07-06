@@ -25,7 +25,10 @@
       "dmlsimulacrum": 12588052,
       "techreborn": 8390656,
       "enhanced_quarries": 7408640,
-      "alloy_forgery": 15684178
+      "alloy_forgery": 15684178,
+      "create": 7408640,
+      "quarrymod": 7408640,
+      "wirelessnetworks": 7408640
     },
     "units": {
       "megane": "E",
@@ -33,7 +36,10 @@
       "dmlsimulacrum": "E",
       "techreborn": "E",
       "enhanced_quarries": "E",
-      "alloy_forgery": ""
+      "alloy_forgery": "",
+      "create": "E",
+      "quarrymod": "E",
+      "wirelessnetworks": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

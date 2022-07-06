@@ -25,28 +25,24 @@ Because Fabric is newer, more modern, has better performance optimisation mods s
 The next reason, why I'm using Fabric, is because I want to use more unknown mods and Fabric mods are currently not that popular. But to be honest, the most important Forge mods are already working on fabric.
 
 
-## Progress - About 12% Done
+## Progress - About 16% Done
 These numbers are pure guesses and are not mathematically calculated!
 | Mod                           | Status         |
 |-------------------------------|----------------|
 | Enhanced Quarreis             | Finished       |
+| Create                        | 95% Done       |
+| Deep Mob Learning             | 95% Done       |
 | Modern Dynamics               | 95% Done       |
 | Tom's Simple Storage Mod      | 95% Done       |
-| Simple Cobble Stone Generator | 90% Done       |
+| XP Obelisks                   | 95% Done       |
+| Simple Cobblestone Generator  | 90% Done       |
 | Applied Energistics           | 80% Done       |
-| Create                        | 45% Done       |
-| XP Obelisks                   | 30% Done       |
 | Terra                         | 20% Done       |
 | Quests                        | 20% Done       |
 | Botania                       | 5% Done        |
 | Tech Reborn                   | 7% Done        |
 | Modern Industrialization      | 3% Done        |
-| Deep Mob Learning             | Not Started    |
-| Croparia                      | Not Started    |
 | Apotheosis                    | Not Started    |
-| Can You Trash It?             | Not Started    |
-| Melon Wireless Redstone       | Not Started    |
-| Wireless Networks             | Not Started    |
 | Dragon Loot                   | Not Integrated |
 | AdventureZ and VoidZ          | Not Integrated |
 
@@ -56,7 +52,7 @@ These numbers are pure guesses and are not mathematically calculated!
 | Not Started | I did not started to tweak recipes |
 | Not Integrated | Either this mod is currently not necessary for the pack or I did not started this mod |
 
-## Mods (171)
+## Mods (167)
 * [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)  
 * [Advancement Plaques [Fabric]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric)  
 * [Advancements Enlarger](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger)  
@@ -90,7 +86,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [CC: Restitched](https://www.curseforge.com/minecraft/mc-mods/cc-restitched)  
 * [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it)  
 * [Cardinal Components](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)  
-* [Chirpy's Wildlife](https://www.curseforge.com/minecraft/mc-mods/chirpys-wildlife)  
 * [Chunky Pregenerator (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)  
 * [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks)  
 * [Cloth Config API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)  
@@ -109,12 +104,13 @@ These numbers are pure guesses and are not mathematically calculated!
 * [CreatePlus](https://www.curseforge.com/minecraft/mc-mods/createplus)  
 * [CreativeCore](https://www.curseforge.com/minecraft/mc-mods/creativecore)  
 * [Croptopia](https://www.curseforge.com/minecraft/mc-mods/croptopia)  
+* [Cycle Paintings (Fabric)](https://www.curseforge.com/minecraft/mc-mods/cycle-paintings-fabric)  
 * [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings)  
+* [Data Attributes](https://www.curseforge.com/minecraft/mc-mods/data-attributes)  
 * [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated)  
 * [Deep Mob Learning: Simulacrum](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-simulacrum)  
 * [DragonLoot](https://www.curseforge.com/minecraft/mc-mods/dragonloot)  
 * [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)  
-* [Eden Ring](https://www.curseforge.com/minecraft/mc-mods/eden-ring)  
 * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)  
 * [Enhanced Quarries (Fabric)](https://www.curseforge.com/minecraft/mc-mods/enhancedquarries)  
 * [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling)  
@@ -133,8 +129,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Fix Experience Bug (now with FABRIC and FORGE versions)](https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug)  
 * [Flywheel](https://www.curseforge.com/minecraft/mc-mods/flywheel)  
 * [Forge Config API Port [Fabric]](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)  
-* [Furnace Mk2 [Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/furnace-mk2)  
-* [Gear Reborn](https://www.curseforge.com/minecraft/mc-mods/gearreborn)  
 * [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)  
 * [Held Item Info](https://www.curseforge.com/minecraft/mc-mods/held-item-info)  
 * [Iceberg [Fabric]](https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric)  
@@ -155,7 +149,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [KubeJS Extras](https://www.curseforge.com/minecraft/mc-mods/kubejs-extras)  
 * [LazyDFU](https://www.curseforge.com/minecraft/mc-mods/lazydfu)  
 * [Legendary Tooltips [Fabric]](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric)  
-* [LevelZ](https://www.curseforge.com/minecraft/mc-mods/levelz)  
 * [Lib Block Attributes](https://www.curseforge.com/minecraft/mc-mods/libblockattributes)  
 * [Light Overlay (Rift/Forge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)  
 * [Lithium (Fabric)](https://www.curseforge.com/minecraft/mc-mods/lithium)  
@@ -169,7 +162,6 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)  
 * [Macaw's Trapdoors](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors)  
 * [Magnum Torch [Fabric]](https://www.curseforge.com/minecraft/mc-mods/magnum-torch-fabric)  
-* [Map Tooltip](https://www.curseforge.com/minecraft/mc-mods/map-tooltip)  
 * [Melon Wireless Redstone](https://www.curseforge.com/minecraft/mc-mods/melon-wireless-redstone)  
 * [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu)  
 * [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)  
@@ -185,6 +177,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Pick Up Notifier [Fabric]](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier-fabric)  
 * [Polymorph (Fabric)](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric)  
 * [Puzzles Lib [Fabric]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)  
+* [Quarry Reborn](https://www.curseforge.com/minecraft/mc-mods/quarry-reborn)  
 * [Quick Shulker](https://www.curseforge.com/minecraft/mc-mods/quick-shulker)  
 * [RSWires](https://www.curseforge.com/minecraft/mc-mods/rswires)  
 * [Reborn Core](https://www.curseforge.com/minecraft/mc-mods/reborncore)  
@@ -203,6 +196,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [St'ructure Tools](https://www.curseforge.com/minecraft/mc-mods/structure-tools)  
 * [Status Effect Bars](https://www.curseforge.com/minecraft/mc-mods/status-effect-bars)  
 * [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)  
+* [Tech Reborn Patchouli](https://www.curseforge.com/minecraft/mc-mods/tech-reborn-patchouli)  
 * [Terra](https://modrinth.com/mod/terra)  
 * [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE)  
 * [Things [Fabric]](https://www.curseforge.com/minecraft/mc-mods/things-fabric)  
@@ -239,4 +233,4 @@ As The Twilight Forest was not compatible with my modpack, I changed a bit in it
 Terra's newest versions are not anymore hosted on CurseForge, so I downloaded it from Modrinth ([Modrinth Page](https://modrinth.com/mod/terra), [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/terra-world-generator)) and put it into this pack.
 
 ## Recommended Commands to run after server setup
-`/gamerule disableElytraMovementCheck true`: Disables Elytra Cheat Detection
+`/gamerule disableElytraMovementCheck true`: Disables Elytra Cheat Detection to save some performance

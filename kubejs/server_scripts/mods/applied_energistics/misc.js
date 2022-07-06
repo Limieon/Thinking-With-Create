@@ -30,4 +30,16 @@ onEvent('recipes', e => {
 		C: 'ae2:fluix_crystal',
 		P: 'ae2:engineering_processor'
 	}, 'ae2:controller')
+
+	e.remove({ output: 'ae2:terminal' })
+	e.shaped('ae2:terminal', [
+		'FPG',
+		'AD '
+	], {
+		F: 'ae2:formation_core',
+		P: '#ae2:illuminated_panel',
+		G: 'ae2:logic_processor',
+		A: 'ae2:annihilation_core',
+		D: 'techreborn:digital_display'
+	})
 })

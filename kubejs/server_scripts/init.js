@@ -5,6 +5,87 @@ settings.logRemovedRecipes = false
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
+const MythicMetals = {
+	adamantite: {
+		ore: 'mythicmetals:adamantite_ore',
+		ingot: 'mythicmetals:adamantite_ingot'
+	},
+	aquarium: {
+		ore: 'mythicmetals:aquarium_ore',
+		ingot: 'mythicmetals:aquarium_ingot'
+	},
+	banglum: {
+		ore: 'mythicmetals:banglum_ore',
+		ingot: 'mythicmetals:banglum_ingot'
+	},
+	bronze: {
+		ore: 'mythicmetals:bronze_ore',
+		ingot: 'mythicmetals:bronze_ingot'
+	},
+	carmot: {
+		ore: 'mythicmetals:carmot_ore',
+		ingot: 'mythicmetals:carmot_ingot'
+	},
+	kyber: { ore: 'mythicmetals:kyber_ore', ingot: 'mythicmetals:kyber_ingot' },
+	manganese: {
+		ore: 'mythicmetals:manganese_ore',
+		ingot: 'mythicmetals:manganese_ingot'
+	},
+	morkite: {
+		ore: 'mythicmetals:morkite_ore',
+		ingot: 'mythicmetals:morkite_ingot'
+	},
+	midas_gold: { ore: 'mythicmetals:midas_gold_ore', ingot: 'mythicmetals:midas_gold_ingot'},
+	mythril: { ore: 'mythicmetals:mythril_ore', ingot: 'mythicmetals:mythril_ingot' },
+	orichalcum: { ore: 'mythicmetals:orichalcum_ore', ingot: 'mythicmetals:orichalcum_ingot' },
+	osmium: {
+		ore: 'mythicmetals:osmium_ore',
+		ingot: 'mythicmetals:osmium_ingot'
+	},
+	palladium: {
+		ore: 'mythicmetals:palladium_ore',
+		ingot: 'mythicmetals:palladium_ingot'
+	},
+	platinum: {
+		ore: 'mythicmetals:platinum_ore',
+		ingot: 'mythicmetals:platinum_ingot'
+	},
+	prometheum: {
+		ore: 'mythicmetals:prometheum_ore',
+		ingot: 'mythicmetals:prometheum_ingot'
+	},
+	quadrillum: {
+		ore: 'mythicmetals:quadrillum_ore',
+		ingot: 'mythicmetals:quadrillum_ingot'
+	},
+	runite: {
+		ore: 'mythicmetals:runite_ore',
+		ingot: 'mythicmetals:runite_ingot'
+	},
+	silver: {
+		ore: 'mythicmetals:silver_ore',
+		ingot: 'mythicmetals:silver_ingot'
+	},
+	starrite: {
+		ore: 'mythicmetals:starrite_ore',
+		ingot: 'mythicmetals:starrite_ingot'
+	},
+	stormyx: {
+		ore: 'mythicmetals:stormyx_ore',
+		ingot: 'mythicmetals:stormyx_ingot'
+	},
+	tin: { ore: 'mythicmetals:tin_ore', ingot: 'mythicmetals:tin_ingot' },
+	unobtainium: {
+		ore: 'mythicmetals:unobtainium_ore',
+		ingot: 'mythicmetals:unobtainium_ingot'
+	},
+	celestium: { ingot: 'mythicmetals:celestium_ingot' },
+	durasteel: { ingot: 'mythicmetals:durasteel_ingot' },
+	hallowed: { ingot: 'mythicmetals:hallowed_ingot' },
+	metallurgium: { ingot: 'mythicmetals:metallurgium_ingot' },
+	star_platinum: { ingot: 'mythicmetals:star_platinum_ingot' }
+}
+
 const Ingots = {
 	iron: 'minecraft:iron_ingot',
 	copper: 'minecraft:copper_ingot',
@@ -32,7 +113,7 @@ const Ingots = {
 	beryllium: 'modern_industrialization:beryllium_ingot',
 	mixedBlastproof: 'modern_industrialization:mixed_ingot_blastproof',
 	blastproofAlloy: 'modern_industrialization:blastproof_alloy_ingot',
-	bronze: 'modern_industrialization:bronze_ingot',
+	bronze: MythicMetals.bronze.ingot,
 	cadmium: 'modern_industrialization:cadmium_ingot',
 	chromiumHot: 'modern_industrialization:chromium_hot_ingot',
 	chromium: 'modern_industrialization:chromium_ingot',
@@ -72,7 +153,8 @@ const Ingots = {
 	iridiumAlloy: 'techreborn:iridium_alloy_ingot',
 	mixedMetal: 'techreborn:mixed_metal_ingot',
 	refinedIron: 'techreborn:refined_iron_ingot',
-	tungstensteel: 'techreborn:tungstensteel_ingot'
+	tungstensteel: 'techreborn:tungstensteel_ingot',
+	redAlloy: 'rswires:red_alloy_ingot'
 }
 const Plates = {
 	iron: 'modern_industrialization:iron_plate',
@@ -198,86 +280,106 @@ const Nuggets = {
 const Woods = {
 	oak: {
 		log: 'minecraft:oak_log',
-		planks: 'minecraft:oak_planks'
+		planks: 'minecraft:oak_planks',
+		wood: 'minecraft:oak_wood'
 	},
 	birch: {
 		log: 'minecraft:birch_log',
-		planks: 'minecraft:birch_planks'
+		planks: 'minecraft:birch_planks',
+		wood: 'minecraft:birch_wood'
 	},
 	spruce: {
 		log: 'minecraft:spruce_log',
-		planks: 'minecraft:spruce_planks'
+		planks: 'minecraft:spruce_planks',
+		wood: 'minecraft:spruce_wood'
 	},
 	jungle: {
 		log: 'minecraft:jungle_log',
-		planks: 'minecraft:jungle_planks'
+		planks: 'minecraft:jungle_planks',
+		wood: 'minecraft:jungle_wood'
 	},
 	dark_oak: {
 		log: 'minecraft:dark_oak_log',
-		planks: 'minecraft:dark_oak_planks'
+		planks: 'minecraft:dark_oak_planks',
+		wood: 'minecraft:dark_oak_wood'
 	},
 	acacia: {
 		log: 'minecraft:acacia_log',
-		planks: 'minecraft:acacia_planks'
+		planks: 'minecraft:acacia_planks',
+		wood: 'minecraft:acacia_wood'
 	},
 	crimson: {
 		log: 'minecraft:crimson_stem',
-		planks: 'minecraft:crimson_planks'
+		planks: 'minecraft:crimson_planks',
+		wood: 'minecraft:crimson_wood'
 	},
 	warped: {
 		log: 'minecraft:warped_stem',
-		planks: 'minecraft:warped_planks'
+		planks: 'minecraft:warped_planks',
+		wood: 'minecraft:warped_wood'
 	},
 	// Architect's Palette
 	twisted: {
 		log: 'architects_palette:twisted_log',
-		planks: 'architects_palette:twisted_planks'
+		planks: 'architects_palette:twisted_planks',
+		wood: 'architects_palette:twisted_wood'
 	},
 	// Better End
 	mossy_glowshrom: {
 		log: 'betterend:mossy_glowshroom_log',
-		planks: 'betterend:mossy_glowshroom_planks'
+		planks: 'betterend:mossy_glowshroom_planks',
+		wood: 'betterend:mossy_glowshrom_wood'
 	},
 	pythadendron: {
 		log: 'betterend:pythadendron_log',
-		planks: 'betterend:pythadendron_planks'
+		planks: 'betterend:pythadendron_planks',
+		wood: 'betterend:pythadendron_wood'
 	},
 	end_lotus: {
 		log: 'betterend:end_lotus_log',
-		planks: 'betterend:end_lotus_planks'
+		planks: 'betterend:end_lotus_planks',
+		wood: 'betterend:end_lotus_wood'
 	},
 	lacugrove: {
 		log: 'betterend:lacugrove_log',
-		planks: 'betterend:lacugrove_planks'
+		planks: 'betterend:lacugrove_planks',
+		wood: 'betterend:lacugrove_wood'
 	},
 	dragon_tree: {
 		log: 'betterend:dragon_tree_log',
-		planks: 'betterend:dragon_tree_planks'
+		planks: 'betterend:dragon_tree_planks',
+		wood: 'betterend:dragon_tree_wood'
 	},
 	tenanea: {
 		log: 'betterend:tenanea_log',
-		planks: 'betterend:tenanea_planks'
+		planks: 'betterend:tenanea_planks',
+		wood: 'betterend:tenanea_wood'
 	},
 	helix_tree: {
 		log: 'betterend:helix_tree_log',
-		planks: 'betterend:helix_tree_planks'
+		planks: 'betterend:helix_tree_planks',
+		wood: 'betterend:helix_tree_wood'
 	},
 	umbrella_tree: {
 		log: 'betterend:umbrella_tree_log',
-		planks: 'betterend:umbrella_tree_planks'
+		planks: 'betterend:umbrella_tree_planks',
+		wood: 'betterend:umbrella_tree_wood'
 	},
 	jellyshroom: {
 		log: 'betterend:jellyshroom_log',
-		planks: 'betterend:jellyshroom_planks'
+		planks: 'betterend:jellyshroom_planks',
+		wood: 'betterend:jellyshroom_wood'
 	},
 	lucernia: {
 		log: 'betterend:lucernia_log',
-		planks: 'betterend:lucernia_planks'
+		planks: 'betterend:lucernia_planks',
+		wood: 'betterend:lucernia_wood'
 	},
 	// Blockus
 	white_oak: {
 		log: 'blockus:white_oak_log',
-		planks: 'blockus:white_oak_planks'
+		planks: 'blockus:white_oak_planks',
+		wood: 'blockus:white_oak_wood'
 	},
 	// Botania
 	livingwood: {
@@ -287,9 +389,9 @@ const Woods = {
 	dreamwood: {
 		log: 'botania:dreamwood_log',
 		planks: 'botania:dreamwood_planks'
-	},
+	}
 	// Eden Ring
-	auritis: {
+	/*auritis: {
 		log: 'edenring:auritis_log',
 		planks: 'edenring:auritis_planks'
 	},
@@ -304,7 +406,7 @@ const Woods = {
 	brainTree: {
 		log: 'edenring:brain_tree_log',
 		planks: 'edenring:brain_tree_planks'
-	}
+	}*/
 }
 
 const AE2 = {
@@ -357,6 +459,8 @@ const DML = {
 }
 const KubeJS = {
 	andesite_drill: 'kubejs:andesite_drill',
+	mythril_drill: 'kubejs:mythril_drill',
+	stormyx_drill: 'kubejs:stormyx_drill',
 	star_dust: 'kubejs:star_dust',
 	starmetal_ingot: 'kubejs:starmetal_ingot',
 	star_ore: 'kubejs:star_ore',
@@ -483,8 +587,14 @@ const ModernIndustrialization = {
 		})
 	}
 }
+const QuarryItem = {
+	create: (i, a, p) => {
+		return { item: i, amount: a, probability: p }
+	}
+}
 
 console.info('Initializing...')
+console.info(MythicMetals)
 
 // Recipes that are / will be duplicates are removed here
 
@@ -549,6 +659,39 @@ onEvent('recipes', e => {
 		S: 'minecraft:stick',
 		B: 'modern_industrialization:bucket_creosote'
 	}).replaceIngredient({item: Item.of('modern_industrialization:bucket_creosote')}, 'minecraft:bucket')
+
+	e.remove({ output: 'wirelessnetworks:node_block' })
+	e.shaped([
+		'III',
+		'RCR',
+		'III'
+	], {
+		I: Plates.iron,
+		R: Ingots.redAlloy,
+		C: 'wirelessnetworks:entangled_capacitor'
+	})
+
+	e.remove({ output: 'wireless_redstone:transmitter' })
+	e.shaped('wireless_redstone:transmitter', [
+		'IEI',
+		'ERE',
+		'IEI'
+	], {
+		I: Plates.iron,
+		R: Ingots.redAlloy,
+		E: 'minecraft:ender_pearl'
+	})
+
+	e.remove({ output: 'wireless_redstone:receiver' })
+	e.shaped('wireless_redstone:receiver', [
+		'IRI',
+		'RER',
+		'IRI'
+	], {
+		I: Plates.iron,
+		R: Ingots.redAlloy,
+		E: 'minecraft:ender_pearl'
+	})
 })
 
 const Liquid = {

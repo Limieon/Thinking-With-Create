@@ -1,7 +1,4 @@
 // priority: 9999
-
-console.info('Hello, World! (You will only see this line once in console, during startup)')
-
 const LootTables = {
 	ore: (e, ore, drop) => {
 		e.addBlock(ore, table => {
@@ -44,32 +41,39 @@ const LootTables = {
 		})
 	}
 }
+const ItemFactory = {
+	drill: (e, id) => {
+		e.create(`${id}_drill`)
+		e.create(`${id}_drill_head`)
+	},
+	sequencedAssembly: (e, id) => {
+		e.create(`incomplete_${id}`, 'create:sequenced_assembly')
+	}
+}
 
 onEvent('item.registry', e => {
-	e.create('incomplete_fluid_storage_cell_1k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_4k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_16k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_64k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_256k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_1024k', 'create:sequenced_assembly')
-	e.create('incomplete_fluid_storage_cell_4096k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_1k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_4k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_16k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_64k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_256k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_1024k', 'create:sequenced_assembly')
-	e.create('incomplete_item_storage_cell_4096k', 'create:sequenced_assembly')
-	e.create('incomplete_mana_storage_cell_1k', 'create:sequenced_assembly')
-	e.create('incomplete_mana_storage_cell_4k', 'create:sequenced_assembly')
-	e.create('incomplete_mana_storage_cell_16k', 'create:sequenced_assembly')
-	e.create('incomplete_mana_storage_cell_64k', 'create:sequenced_assembly')
-	e.create('incomplete_mana_storage_cell_256k', 'create:sequenced_assembly')
-	e.create('andesite_drill')
-	e.create('andesite_drill_head')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_1k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_4k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_16k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_64k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_256k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_1024k')
+	ItemFactory.sequencedAssembly(e, 'fluid_storage_cell_4096k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_1k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_4k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_16k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_64k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_256k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_1024k')
+	ItemFactory.sequencedAssembly(e, 'item_storage_cell_4096k')
 
 	e.create('star_dust')
 	e.create('starmetal_ingot')
+	e.create('osmium_plate')
+
+	ItemFactory.drill(e, 'andesite')
+	ItemFactory.drill(e, 'mythril')
+	ItemFactory.drill(e, 'stormyx')
 })
 onEvent('block.registry', e => {
 	e.create('star_ore')
@@ -91,10 +95,22 @@ onEvent('block.registry', e => {
 		.tagBlock('minecraft:mineable/pickaxe')
 })
 onEvent('fluid.registry', e => {
-	e.create('liquid_glass')
-		.thinTexture(0xCCA137)
-		.bucketColor(0xCCA137)
-		.displayName('Liquified Sand')
+	e.create('smoothie_pink') // Dragonfruit, Raspberry, Banana, Apple
+		.thinTexture(0xFA00FF)
+		.bucketColor(0xFA00FF)
+		.displayName('Pink Smoothie')
+	e.create('smoothie_purple') // Blackberry, Banana, Orange, Raspberry
+		.thinTexture(0xAB26FF)
+		.bucketColor(0xAB26FF)
+		.displayName('Purple Smoothie')
+	e.create('smoothie_orange') // Orange, Mango, Banana, Apple
+		.thinTexture(0xFF8800)
+		.bucketColor(0xFF8800)
+		.displayName('Orange Smoothie')
+	e.create('smoothie_red') // Vanilla, Pear, Grape, Apple
+		.thinTexture(0xFF003F)
+		.bucketColor(0xFF003F)
+		.displayName('Red Smoothie')
 })
 onEvent('block.loot_tables', e => {
 	LootTables.ore(e, 'kubejs:star_ore', 'kubejs:star_dust')
