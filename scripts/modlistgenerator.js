@@ -11,12 +11,12 @@ const mods = []
 
 // Mods that are not hosted on curseforge or are modified:
 const prettyMods = [
-	{
+	/*{
 		name: 'Terra',
 		link: 'https://modrinth.com/mod/terra',
 		id: 0,
 		authors: ['dfsek', 'sancires']
-	},
+	},*/
 	{
 		name: 'The Twilight Forest',
 		link: 'https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest?FORM=LFACTRE',
