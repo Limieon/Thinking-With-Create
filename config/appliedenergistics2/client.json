@@ -1,6 +1,6 @@
 {
   "client": {
-    "disableColoredCableRecipesInJEI": true,
+    "disableColoredCableRecipesInJEI": false,
     "enableFacadesInJEI": false,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
@@ -14,7 +14,7 @@
   },
   "terminals": {
     "searchTooltips_comment": "Should tooltips be searched. Performance impact",
-    "searchTooltips": "yes",
+    "searchTooltips": "no",
     "terminalStyle": "small",
     "terminalSearchMode": "default"
   }

@@ -21,6 +21,7 @@
 /shaderpacks/
 /simple-rpc/
 /voicechat_recordings/
+/ESM/
 
 # Scripts
 scripts/private.json

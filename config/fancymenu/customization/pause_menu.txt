@@ -18,7 +18,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -45
+  y = -20
 }
 
 customization {
@@ -31,7 +31,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 21
+  y = 46
 }
 
 customization {
@@ -51,7 +51,7 @@ customization {
   orientation = mid-centered
   x = 1
   action = movebutton
-  y = 21
+  y = 46
 }
 
 customization {
@@ -62,11 +62,19 @@ customization {
 }
 
 customization {
+  identifier = %id=374294%
+  orientation = mid-centered
+  x = 82
+  action = movebutton
+  y = 24
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -23
+  y = 2
 }
 
 customization {
@@ -81,7 +89,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -1
+  y = 24
 }
 
 customization {
@@ -96,7 +104,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 43
+  y = 68
 }
 
 customization {
@@ -104,7 +112,7 @@ customization {
   orientation = mid-centered
   x = 1
   action = movebutton
-  y = -23
+  y = 2
 }
 
 customization {
@@ -121,15 +129,7 @@ customization {
   width = 264
   action = addtexture
   actionid = 59360c3c-ac1c-4abf-9b4d-7c0092a222bd1654539235937
-  y = -150
+  y = -130
   height = 111
-}
-
-customization {
-  identifier = %id=374294%
-  orientation = mid-centered
-  x = 82
-  action = movebutton
-  y = -1
 }
 

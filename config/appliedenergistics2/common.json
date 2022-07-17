@@ -2,13 +2,13 @@
   "general": {
     "unsupportedDeveloperTools": false,
     "matterCannonBlockDamage_comment": "Enables the ability of the Matter Cannon to break blocks.",
-    "matterCannonBlockDamage": true,
+    "matterCannonBlockDamage": false,
     "tinyTntBlockDamage_comment": "Enables the ability of Tiny TNT to break blocks.",
-    "tinyTntBlockDamage": true,
+    "tinyTntBlockDamage": false,
     "serverOpsIgnoreSecurity_comment": "Server operators are not restricted by ME security terminal settings.",
     "serverOpsIgnoreSecurity": true,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",
-    "channels": "default",
+    "channels": "x4",
     "pathfindingStepsPerTick_comment": "The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.",
     "pathfindingStepsPerTick": 4
   },
@@ -28,9 +28,9 @@
     "inWorldSingularity_comment": "Enable the in-world crafting of singularities.",
     "inWorldSingularity": true,
     "inWorldFluix_comment": "Enable the in-world crafting of fluix crystals.",
-    "inWorldFluix": true,
+    "inWorldFluix": false,
     "inWorldCrystalGrowth_comment": "Enable the in-world crafting of crystals.",
-    "inWorldCrystalGrowth": true,
+    "inWorldCrystalGrowth": false,
     "disassemblyCrafting_comment": "Enable shift-clicking with the crafting units in hand to disassemble them.",
     "disassemblyCrafting": true
   },
@@ -82,7 +82,7 @@
   },
   "PowerRatios": {
     "TechReborn": 2.0,
-    "UsageMultiplier": 1.0
+    "UsageMultiplier": 2.5
   },
   "Condenser": {
     "MatterBalls": 256,

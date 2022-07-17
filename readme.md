@@ -24,7 +24,6 @@ Expert in this terms means not, that you need to be an expert in all of these mo
 Because Fabric is newer, more modern, has better performance optimisation mods such as Sodium and Phosphor and is also out of the box more performant than forge.
 The next reason, why I'm using Fabric, is because I want to use more unknown mods and Fabric mods are currently not that popular. But to be honest, the most important Forge mods are already working on fabric.
 
-
 ## Progress - About 16% Done
 These numbers are pure guesses and are not mathematically calculated!
 | Mod                           | Status         |
@@ -86,7 +85,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [CC: Restitched](https://www.curseforge.com/minecraft/mc-mods/cc-restitched)  
 * [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it)  
 * [Cardinal Components](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)  
-* [Chunky Pregenerator (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)  
+* [Chunky (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)  
 * [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks)  
 * [Cloth Config API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)  
 * [Cloth Config API (UNUSED)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy)  
@@ -127,7 +126,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [FerriteCore (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)  
 * [Fix Experience Bug (now with FABRIC and FORGE versions)](https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug)  
 * [Flywheel](https://www.curseforge.com/minecraft/mc-mods/flywheel)  
-* [Forge Config API Port [Fabric]](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)  
+* [Forge Config API Port](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)  
 * [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)  
 * [Held Item Info](https://www.curseforge.com/minecraft/mc-mods/held-item-info)  
 * [Iceberg [Fabric]](https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric)  
@@ -160,7 +159,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Macaw's Fences and Walls](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls)  
 * [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)  
 * [Macaw's Trapdoors](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors)  
-* [Magnum Torch [Fabric]](https://www.curseforge.com/minecraft/mc-mods/magnum-torch-fabric)  
+* [Magnum Torch [Outdated]](https://www.curseforge.com/minecraft/mc-mods/magnum-torch-fabric)  
 * [Melon Wireless Redstone](https://www.curseforge.com/minecraft/mc-mods/melon-wireless-redstone)  
 * [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu)  
 * [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)  
@@ -175,7 +174,7 @@ These numbers are pure guesses and are not mathematically calculated!
 * [Phosphor (Fabric)](https://www.curseforge.com/minecraft/mc-mods/phosphor)  
 * [Pick Up Notifier [Fabric]](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier-fabric)  
 * [Polymorph (Fabric)](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric)  
-* [Puzzles Lib [Fabric]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)  
+* [Puzzles Lib [Outdated]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)  
 * [Quick Shulker](https://www.curseforge.com/minecraft/mc-mods/quick-shulker)  
 * [RSWires](https://www.curseforge.com/minecraft/mc-mods/rswires)  
 * [Reborn Core](https://www.curseforge.com/minecraft/mc-mods/reborncore)  
@@ -230,8 +229,5 @@ As The Twilight Forest was not compatible with my modpack, I changed a bit in it
 1. I changed the required fabric api version (from: `0.53.3` to `>=0.53.3`)
 2. I removed the `com_electronwill_night-config_core` and `com_electronwill_night-config_toml` out of the provides, as a other mod already provided it.
 
-## Terra
-Terra's newest versions are not anymore hosted on CurseForge, so I downloaded it from Modrinth ([Modrinth Page](https://modrinth.com/mod/terra), [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/terra-world-generator)) and put it into this pack.
-
-## Recommended Commands to run after server setup
+## Recommended Commands to run after first server start
 `/gamerule disableElytraMovementCheck true`: Disables Elytra Cheat Detection to save some performance
