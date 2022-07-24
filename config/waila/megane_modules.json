@@ -1,5 +1,11 @@
 {
   "modules": {
+    "megane-modern-dynamics": {
+      "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
+    },
+    "modern_industrialization": {
+      "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
+    },
     "megane-deep-mob-learning-simulacrum": {
       "lol.bai.megane.module.dmlsimulacrum.MeganeDmlSimulacrum": true
     },
@@ -20,9 +26,6 @@
     },
     "megane-lib-block-attributes": {
       "lol.bai.megane.module.lba.MeganeLibBlockAttributes": true
-    },
-    "modern_industrialization": {
-      "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
     },
     "megane-applied-energistics-2": {
       "lol.bai.megane.module.ae2.MeganeAppliedEnergistics2": true
