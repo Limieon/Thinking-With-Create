@@ -36,7 +36,11 @@
 		{
 			x: -1.5d
 			y: -2.25d
-			description: ["This pipe will work like a conveyor, except it can also move items vertically and across corners"]
+			description: [
+				"This pipe will work like a conveyor, except it can also move items vertically and across corners"
+				""
+				"The only downside of this pipe is, that it is a lot slower than a maximum speed conveyor belt"
+			]
 			dependencies: ["0827ADDC52A4C5B5"]
 			id: "3CFA299ECD4872FC"
 			tasks: [{
@@ -85,6 +89,7 @@
 			y: -2.25d
 			description: [
 				"This pipe cannot pump fluids out of sources but will work without a pump"
+				""
 				"It also cannot filter fluids and will be mouch slower than normal fluid pipes"
 			]
 			dependencies: ["19651D9E85F8E106"]

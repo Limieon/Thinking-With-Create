@@ -1,5 +1,5 @@
 {
-  "use_mtr_font": false,
+  "use_mtr_font": true,
   "show_announcement_messages": false,
   "use_tts_announcements": false,
   "hide_special_rail_colors": false,

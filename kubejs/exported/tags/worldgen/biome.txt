@@ -1,67 +1,7 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
-
-#c:climate_wet
-- #c:aquatic?
-- #c:swamp?
-- minecraft:lush_caves
-- #c:jungle?
+To refresh this file, delete it and run /reload command again! Last updated: Aug 13, 2022, 11:55:56 AM
 
 #minecraft:has_structure/nether_fortress
 - #minecraft:is_nether
-
-#croptopia:has_crop/chile_pepper
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
-
-#minecraft:is_river
-- minecraft:river
-- minecraft:frozen_river
-
-#croptopia:has_crop/turnip
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- byg:crag_gardens?
-- byg:guiana_shield?
-- byg:jacaranda_forest?
-- byg:tropical_rainforest?
-
-#c:nether_forests
-- minecraft:warped_forest
-- minecraft:crimson_forest
-
-#croptopia:has_crop/tomato
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
-
-#twilightforest:valid_hydra_lair_biomes
-- twilightforest:fire_swamp
 
 #minecraft:has_structure/mineshaft
 - #minecraft:is_ocean
@@ -85,19 +25,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:savanna_plateau
 - minecraft:dripstone_caves
 - minecraft:lush_caves
-
-#croptopia:has_crop/cucumber
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
 - minecraft:plains
 - minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- #terralith:all_terralith_biomes
+
+#betterwitchhuts:has_structure/has_witch_circle
+- minecraft:swamp
+- #forge:is_swamp?
+- #c:swamp?
 
 #croptopia:has_crop/coffee_beans
 - minecraft:jungle
@@ -111,6 +65,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:has_structure/jungle_temple
 - minecraft:bamboo_jungle
 - minecraft:jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- terralith:tropical_jungle
+- terralith:rocky_jungle
 
 #c:mushroom
 - minecraft:mushroom_fields
@@ -128,24 +86,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:rose_fields?
 - byg:sierra_badlands?
 
-#c:in_nether
-- #minecraft:is_nether?
-- minecraft:crimson_forest
-- minecraft:warped_forest
-- minecraft:nether_wastes
-- minecraft:soul_sand_valley
-- minecraft:basalt_deltas
-
 #croptopia:has_crop/kiwi
 - minecraft:savanna
 - minecraft:savanna_plateau
 - minecraft:windswept_savanna
 - byg:araucaria_savanna?
 - byg:baobab_savanna?
-
-#c:tree_coniferous
-- minecraft:grove
-- #c:taiga?
 
 #bettermineshafts:has_structure/has_mineshaft_ice
 - minecraft:ice_spikes
@@ -163,17 +109,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #c:mountain
 - #minecraft:is_mountain?
 
-#c:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- minecraft:savanna
-
 #minecraft:is_jungle
 - minecraft:bamboo_jungle
 - minecraft:jungle
 - minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- minecraft:sparse_jungle
+- terralith:rocky_jungle
+- terralith:jungle_mountains
+- terralith:tropical_jungle
+- terralith:amethyst_rainforest
+- terralith:amethyst_canyon
 
 #minecraft:is_ocean
+- #minecraft:is_deep_ocean
+- minecraft:frozen_ocean
+- minecraft:ocean
+- minecraft:cold_ocean
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
 - #minecraft:is_deep_ocean
 - minecraft:frozen_ocean
 - minecraft:ocean
@@ -183,19 +138,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #twilightforest:valid_yeti_cave_biomes
 - twilightforest:snowy_forest
-
-#croptopia:has_crop/corn
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
 
 #ae2:has_meteorites
 - minecraft:plains
@@ -249,29 +191,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dripstone_caves
 - minecraft:lush_caves
 
-#c:caves
-- minecraft:dripstone_caves
-- minecraft:lush_caves
-
-#twilightforest:valid_hedge_maze_biomes
-- twilightforest:clearing
-- twilightforest:dense_forest
-- twilightforest:dense_mushroom_forest
-- twilightforest:firefly_forest
-- twilightforest:forest
-- twilightforest:mushroom_forest
-- twilightforest:oak_savannah
-- twilightforest:spooky_forest
-
-#c:floral
-- minecraft:sunflower_plains
-- minecraft:flower_forest
-
-#twilightforest:valid_mushroom_tower_biomes
-- twilightforest:dense_mushroom_forest
-
-#minecraft:has_structure/buried_treasure
-- #minecraft:is_beach
+#terralith:has_structure/fortified_desert_village
+- minecraft:desert
+- terralith:desert_oasis
 
 #croptopia:has_crop/basil
 - minecraft:jungle
@@ -290,34 +212,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:deep_cold_ocean
 - minecraft:deep_ocean
 
-#croptopia:has_crop/vanilla
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- byg:crag_gardens?
-- byg:guiana_shield?
-- byg:jacaranda_forest?
-- byg:tropical_rainforest?
-
 #twilightforest:valid_aurora_palace_biomes
 - twilightforest:glacier
-
-#croptopia:has_crop/sweetpotato
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
-
-#c:badlands
-- #c:mesa?
-- #minecraft:is_badlands?
 
 #minecraft:has_structure/stronghold
 - minecraft:plains
@@ -355,6 +251,43 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:mushroom_fields
 - minecraft:dripstone_caves
 - minecraft:lush_caves
+- minecraft:the_void
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- #terralith:all_terralith_biomes
 
 #croptopia:has_crop/strawberry
 - minecraft:forest
@@ -390,11 +323,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #minecraft:has_structure/mineshaft_mesa
 - #minecraft:is_badlands
-
-#c:underground
-- #c:caves?
+- #minecraft:is_badlands
 
 #minecraft:has_structure/shipwreck
+- #minecraft:is_ocean
 - #minecraft:is_ocean
 
 #bosses_of_mass_destruction:has_structure/obsidilith_arena
@@ -403,69 +335,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #c:snowy_plains
 - minecraft:snowy_plains
 
-#croptopia:has_crop/rutabaga
-- minecraft:old_growth_pine_taiga
-- minecraft:old_growth_spruce_taiga
-- minecraft:taiga
-- minecraft:snowy_taiga
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-- byg:black_forest?
-- byg:coniferous_forest?
-- byg:maple_taiga?
-- byg:autumnal_taiga?
-- byg:frosted_taiga?
-- byg:frosted_coniferous_forest?
-- byg:zelkova_forest?
-
 #c:vegetation_dense
 - #c:jungle?
 - minecraft:sunflower_plains
-
-#c:jungle
-- #minecraft:is_jungle?
-
-#croptopia:has_crop/cauliflower
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
-
-#minecraft:has_structure/igloo
-- minecraft:snowy_taiga
-- minecraft:snowy_plains
-- minecraft:snowy_slopes
-
-#c:wasteland
-
-#minecraft:has_structure/shipwreck_beached
-- #minecraft:is_beach
 
 #minecraft:is_hill
 - minecraft:windswept_hills
 - minecraft:windswept_forest
 - minecraft:windswept_gravelly_hills
-
-#bettermineshafts:has_structure/has_mineshaft_dripstone
-- minecraft:dripstone_caves
+- minecraft:windswept_hills
+- minecraft:windswept_forest
+- minecraft:windswept_gravelly_hills
+- terralith:fractured_savanna
+- terralith:cloud_forest
+- terralith:jungle_mountains
+- terralith:haze_mountain
 
 #croptopia:has_crop/cantaloupe
 - minecraft:forest
@@ -490,25 +374,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #c:forest
 - #minecraft:is_forest?
-
-#croptopia:has_crop/cranberry
-- minecraft:swamp
-- byg:bayou?
-- byg:cypress_swamplands?
-- byg:white_mangrove_marshes?
-
-#croptopia:has_crop/greenbean
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
 
 #c:end_islands
 
@@ -545,39 +410,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #c:dead
 
-#bosses_of_mass_destruction:has_structure/lich_tower
-- #bosses_of_mass_destruction:collections/cold
-
-#c:deep_ocean
-- minecraft:deep_frozen_ocean
-- minecraft:deep_lukewarm_ocean
-- minecraft:deep_cold_ocean
-- minecraft:deep_ocean
-
 #c:swamp
 - minecraft:swamp
-
-#betterdungeons:has_structure/has_small_dungeon
-- #minecraft:is_mountain
-- #minecraft:is_badlands
-- #minecraft:is_hill
-- #minecraft:is_taiga
-- #minecraft:is_jungle
-- #minecraft:is_forest
-- minecraft:stony_shore
-- minecraft:mushroom_fields
-- minecraft:ice_spikes
-- minecraft:desert
-- minecraft:savanna
-- minecraft:snowy_plains
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- minecraft:dripstone_caves
-- minecraft:lush_caves
 
 #c:in_overworld
 - minecraft:river
@@ -634,18 +468,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #c:tree_jungle
 - #c:jungle?
 
-#croptopia:has_crop/rhubarb
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- byg:crag_gardens?
-- byg:guiana_shield?
-- byg:jacaranda_forest?
-- byg:tropical_rainforest?
-
-#minecraft:has_structure/ocean_monument
-- #minecraft:is_deep_ocean
-
 #croptopia:has_crop/spinach
 - minecraft:forest
 - minecraft:flower_forest
@@ -677,58 +499,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - twilightforest:oak_savannah
 - twilightforest:spooky_forest
 
-#bosses_of_mass_destruction:collections/in_overworld
-- #minecraft:is_badlands
-- #minecraft:is_deep_ocean
-- #minecraft:is_ocean
-- #minecraft:is_ocean
-- #minecraft:is_river
-- #minecraft:is_beach
-- #minecraft:is_mountain
-- #minecraft:is_hill
-- #minecraft:is_taiga
-- #minecraft:is_jungle
-- #minecraft:is_forest
-- minecraft:stony_shore
-- minecraft:mushroom_fields
-- minecraft:ice_spikes
-- minecraft:windswept_savanna
-- minecraft:desert
-- minecraft:savanna
-- minecraft:snowy_plains
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:savanna_plateau
-- minecraft:dripstone_caves
-- minecraft:lush_caves
-
-#minecraft:has_structure/ruined_portal_jungle
-- #minecraft:is_jungle
-
-#bettermineshafts:has_structure/has_mineshaft_spruce_snowy
-- minecraft:snowy_taiga
-- minecraft:snowy_plains
-- minecraft:snowy_slopes
-- minecraft:jagged_peaks
-
-#c:climate_cold
-- minecraft:grove
-- minecraft:jagged_peaks
-- #c:icy?
-
-#minecraft:has_structure/desert_pyramid
-- minecraft:desert
-
 #minecraft:has_structure/ruined_portal_ocean
 - #minecraft:is_ocean
-
-#c:in_the_end
-- minecraft:end_barrens
-- minecraft:end_midlands
-- minecraft:end_highlands
-- minecraft:the_end
-- minecraft:small_end_islands
+- #minecraft:is_ocean
 
 #c:river
 - #minecraft:is_river?
@@ -738,21 +511,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:deep_cold_ocean
 - minecraft:deep_ocean
 - minecraft:deep_lukewarm_ocean
-
-#croptopia:has_crop/kale
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+- minecraft:deep_lukewarm_ocean
 
 #minecraft:is_nether
+- minecraft:nether_wastes
+- minecraft:basalt_deltas
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
 - minecraft:nether_wastes
 - minecraft:basalt_deltas
 - minecraft:soul_sand_valley
@@ -771,74 +540,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #c:mushroom?
 - #c:in_nether?
 
-#croptopia:has_crop/hops
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-
 #c:desert
 - minecraft:desert
 
 #bettermineshafts:has_structure/has_mineshaft_red_desert
 - #minecraft:is_badlands
 
-#croptopia:has_crop/tomatillo
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
-
-#minecraft:has_structure/woodland_mansion
-- minecraft:dark_forest
-
 #croptopia:has_crop/artichoke
 - minecraft:swamp
 - byg:bayou?
 - byg:cypress_swamplands?
 - byg:white_mangrove_marshes?
-
-#croptopia:has_crop/turmeric
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-
-#twilightforest:valid_final_castle_biomes
-- twilightforest:final_plateau
-
-#c:mountain_peak
-- minecraft:frozen_peaks
-- minecraft:jagged_peaks
-- minecraft:stony_peaks
-
-#croptopia:has_crop/currant
-- minecraft:swamp
-- byg:bayou?
-- byg:cypress_swamplands?
-- byg:white_mangrove_marshes?
-
-#minecraft:has_structure/ocean_ruin_warm
-- minecraft:lukewarm_ocean
-- minecraft:warm_ocean
-- minecraft:deep_lukewarm_ocean
 
 #c:shallow_ocean
 - minecraft:ocean
@@ -853,27 +565,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:windswept_savanna
 - byg:araucaria_savanna?
 - byg:baobab_savanna?
-
-#croptopia:has_crop/blackbean
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
 
 #croptopia:has_crop/saguaro
 - minecraft:desert
@@ -897,49 +588,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:rose_fields?
 - byg:sierra_badlands?
 
-#croptopia:has_crop/pineapple
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- byg:crag_gardens?
-- byg:guiana_shield?
-- byg:jacaranda_forest?
-- byg:tropical_rainforest?
-
-#betterdungeons:has_structure/has_spider_dungeon
-- #minecraft:is_mountain
-- #minecraft:is_badlands
-- #minecraft:is_hill
-- #minecraft:is_taiga
-- #minecraft:is_jungle
-- #minecraft:is_forest
-- minecraft:stony_shore
-- minecraft:mushroom_fields
-- minecraft:ice_spikes
-- minecraft:desert
-- minecraft:savanna
-- minecraft:snowy_plains
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- minecraft:dripstone_caves
-- minecraft:lush_caves
-
-#bosses_of_mass_destruction:has_structure/void_blossom
-- #bosses_of_mass_destruction:collections/in_overworld
-
 #croptopia:has_crop/yam
 - minecraft:savanna
 - minecraft:savanna_plateau
 - minecraft:windswept_savanna
 - byg:araucaria_savanna?
 - byg:baobab_savanna?
-
-#c:flower_forests
-- minecraft:flower_forest
 
 #c:tree_deciduous
 - minecraft:forest
@@ -951,30 +605,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #minecraft:has_structure/village_desert
 - minecraft:desert
+- minecraft:desert
+- terralith:sandstone_valley
+- terralith:desert_oasis
 
 #c:tree_savanna
 - #c:savanna?
 
-#croptopia:has_crop/radish
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
+#betterwitchhuts:has_structure/has_better_witch_hut
+- minecraft:swamp
+- #forge:is_swamp?
+- #c:swamp?
 
 #minecraft:is_forest
 - minecraft:forest
@@ -983,6 +624,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:old_growth_birch_forest
 - minecraft:dark_forest
 - minecraft:grove
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:old_growth_birch_forest
+- minecraft:dark_forest
+- minecraft:grove
+- terralith:alpine_grove
+- terralith:cloud_forest
 
 #c:icy
 - minecraft:frozen_river
@@ -991,71 +640,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:ice_spikes
 - minecraft:frozen_ocean
 
-#minecraft:has_structure/village_savanna
-- minecraft:savanna
-
 #c:stony_shores
 - minecraft:stony_shore
-
-#croptopia:has_crop/blueberry
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:old_growth_pine_taiga
-- minecraft:old_growth_spruce_taiga
-- minecraft:taiga
-- minecraft:snowy_taiga
-- minecraft:grove
-- byg:aspen_forest?
-- byg:black_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:coniferous_forest?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:maple_taiga?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:autumnal_taiga?
-- byg:redwood_thicket?
-- byg:frosted_taiga?
-- byg:frosted_coniferous_forest?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
-- byg:zelkova_forest?
-
-#c:mountain_slope
-- minecraft:snowy_slopes
-
-#minecraft:has_structure/village_taiga
-- minecraft:taiga
-
-#betterdungeons:has_structure/has_zombie_dungeon
-- #minecraft:is_mountain
-- #minecraft:is_badlands
-- #minecraft:is_hill
-- #minecraft:is_taiga
-- #minecraft:is_jungle
-- #minecraft:is_forest
-- minecraft:stony_shore
-- minecraft:mushroom_fields
-- minecraft:ice_spikes
-- minecraft:desert
-- minecraft:savanna
-- minecraft:snowy_plains
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- minecraft:dripstone_caves
-- minecraft:lush_caves
 
 #croptopia:has_crop/eggplant
 - minecraft:jungle
@@ -1068,19 +654,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #twilightforest:valid_troll_cave_biomes
 - twilightforest:highlands
-
-#croptopia:has_crop/lettuce
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
 
 #croptopia:has_crop/greenonion
 - minecraft:jungle
@@ -1112,9 +685,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:windswept_savanna
 - minecraft:dripstone_caves
 - minecraft:lush_caves
-
-#c:void
-- minecraft:the_void
 
 #croptopia:has_crop/blackberry
 - minecraft:forest
@@ -1151,6 +721,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:has_structure/village_plains
 - minecraft:plains
 - minecraft:meadow
+- minecraft:plains
+- minecraft:meadow
+- terralith:blooming_plateau
+- terralith:steppe
+- terralith:birch_taiga
+- terralith:lavender_forest
+- terralith:temperate_highlands
 
 #croptopia:has_crop/honeydew
 - minecraft:jungle
@@ -1174,51 +751,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:rose_fields?
 - byg:sierra_badlands?
 
-#croptopia:has_crop/pepper
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
-
 #c:ocean
 - #c:deep_ocean?
 - #c:shallow_ocean?
 - #minecraft:is_ocean?
-
-#betterdungeons:has_structure/has_skeleton_dungeon
-- #minecraft:is_mountain
-- #minecraft:is_badlands
-- #minecraft:is_hill
-- #minecraft:is_taiga
-- #minecraft:is_jungle
-- #minecraft:is_forest
-- minecraft:stony_shore
-- minecraft:mushroom_fields
-- minecraft:ice_spikes
-- minecraft:desert
-- minecraft:savanna
-- minecraft:snowy_plains
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- minecraft:dripstone_caves
-- minecraft:lush_caves
-
-#minecraft:has_structure/ruined_portal_desert
-- minecraft:desert
-
-#minecraft:has_structure/ruined_portal_swamp
-- minecraft:swamp
 
 #bettermineshafts:has_structure/has_mineshaft_acacia
 - minecraft:savanna
@@ -1243,9 +779,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:snowy_beach
 - minecraft:frozen_ocean
 
-#bettermineshafts:has_structure/has_mineshaft_mesa
-- #minecraft:is_badlands
-
 #croptopia:has_crop/mustard
 - minecraft:plains
 - minecraft:sunflower_plains
@@ -1261,12 +794,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #minecraft:has_structure/swamp_hut
 - minecraft:swamp
-
-#bettermineshafts:has_structure/has_mineshaft_desert
-- minecraft:desert
-
-#bettermineshafts:has_structure/has_mineshaft_forest
-- #minecraft:is_forest
+- terralith:orchid_swamp
+- terralith:siberian_taiga
+- terralith:ice_marsh
 
 #croptopia:has_crop/barley
 - minecraft:plains
@@ -1292,10 +822,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:frosted_coniferous_forest?
 - byg:zelkova_forest?
 
-#twilightforest:valid_quest_grove_biomes
-- twilightforest:enchanted_forest
-
 #minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether
 - #minecraft:is_nether
 
 #croptopia:has_crop/squash
@@ -1316,33 +844,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:frosted_coniferous_forest?
 - byg:zelkova_forest?
 
-#croptopia:has_crop/broccoli
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
-
-#c:climate_dry
-- #c:in_nether?
-- #c:badlands?
-- #c:desert?
-- #c:savanna?
-
-#twilightforest:valid_labyrinth_biomes
-- twilightforest:swamp
-
 #minecraft:is_beach
 - minecraft:beach
 - minecraft:snowy_beach
+- minecraft:beach
+- minecraft:snowy_beach
+- terralith:gravel_beach
 
 #minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach
+- #minecraft:is_river
+- #minecraft:is_taiga
+- #minecraft:is_forest
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
 - #minecraft:is_beach
 - #minecraft:is_river
 - #minecraft:is_taiga
@@ -1364,24 +885,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:taiga
 - #minecraft:is_mountain
 - minecraft:grove
-
-#croptopia:has_crop/olive
+- minecraft:desert
+- minecraft:plains
 - minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-
-#c:mesa
-- minecraft:wooded_badlands
-- minecraft:eroded_badlands
-- minecraft:badlands
-
-#minecraft:is_taiga
+- minecraft:snowy_plains
 - minecraft:taiga
-- minecraft:snowy_taiga
-- minecraft:old_growth_pine_taiga
-- minecraft:old_growth_spruce_taiga
+- #minecraft:is_mountain
+- minecraft:grove
+- terralith:yellowstone
+- terralith:shield
+- terralith:lush_valley
+- terralith:sakura_valley
+- terralith:sakura_grove
+- terralith:lavender_forest
 
 #croptopia:has_crop/peanut
 - minecraft:jungle
@@ -1398,9 +914,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:jagged_peaks
 - minecraft:stony_peaks
 - minecraft:snowy_slopes
-
-#twilightforest:valid_knight_stronghold_biomes
-- twilightforest:dark_forest
+- minecraft:meadow
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:snowy_slopes
+- terralith:emerald_peaks
+- terralith:scarlet_mountains
+- terralith:rocky_mountains
+- terralith:caldera
+- terralith:volcanic_peaks
 
 #bosses_of_mass_destruction:collections/in_nether
 - #minecraft:is_nether
@@ -1409,62 +932,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:sunflower_plains
 - minecraft:plains
 
-#croptopia:has_crop/elderberry
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:grove
-- byg:aspen_forest?
-- byg:borealis_grove?
-- byg:cherry_blossom_forest?
-- byg:cika_woods?
-- byg:ebony_woods?
-- byg:forgotten_forest?
-- byg:red_oak_forest?
-- byg:autumnal_forest?
-- byg:redwood_thicket?
-- byg:fragment_forest?
-- byg:twilight_meadow?
-- byg:weeping_witch_forest?
-- byg:temperate_rainforest?
-
-#croptopia:has_crop/cabbage
-- minecraft:plains
-- minecraft:sunflower_plains
-- byg:allium_fields?
-- byg:amaranth_fields?
-- byg:autumnal_valley?
-- byg:temperate_grove?
-- byg:coconino_meadow?
-- byg:orchard?
-- byg:prairie?
-- byg:rose_fields?
-- byg:sierra_badlands?
-
-#minecraft:has_structure/village_snowy
-- minecraft:snowy_plains
-
-#bettermineshafts:has_structure/has_mineshaft_oak
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:swamp
-- minecraft:meadow
-
-#c:snowy
-- minecraft:snowy_beach
-- minecraft:snowy_plains
-- minecraft:snowy_slopes
-- minecraft:snowy_taiga
-
-#bettermineshafts:has_structure/has_mineshaft_spruce
-- #minecraft:is_taiga
-
 #minecraft:is_badlands
 - minecraft:badlands
 - minecraft:eroded_badlands
 - minecraft:wooded_badlands
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- terralith:painted_mountains
+- terralith:bryce_canyon
+- terralith:savanna_badlands
 
 #croptopia:has_crop/celery
 - minecraft:forest
@@ -1499,6 +976,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:meadow
 - minecraft:plains
 
+#terralith:has_structure/spire
+- terralith:wintry_lowlands
+- minecraft:ice_spikes
+- minecraft:frozen_river
+
 #c:aquatic
 - #c:ocean?
 - #c:river?
@@ -1506,21 +988,100 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #twilightforest:valid_dark_tower_biomes
 - twilightforest:dark_forest_center
 
-#c:taiga
-- #minecraft:is_taiga?
-
-#croptopia:has_crop/leek
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-
 #minecraft:has_structure/nether_fossil
 - minecraft:soul_sand_valley
 
-#bosses_of_mass_destruction:has_structure/gauntlet_arena
-- #bosses_of_mass_destruction:collections/in_nether
+#terralith:all_terralith_biomes_no_mineshafts
+- terralith:desert_canyon
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:birch_taiga
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:lush_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:mountain_steppe
+- terralith:orchid_swamp
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_slopes
+- terralith:scarlet_mountains
+- terralith:shield_clearing
+- terralith:shield
+- terralith:shrubland
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:skylands_summer
+- terralith:skylands_winter
+- terralith:skylands
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:steppe
+- terralith:stony_spires
+- terralith:temperate_highlands
+- terralith:tropical_jungle
+- terralith:valley_clearing
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_cliffs
+- terralith:white_mesa
+- terralith:windswept_spires
+- terralith:wintry_forest
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+- terralith:yosemite_lowlands
 
 #c:vegetation_sparse
 - #c:savanna?
@@ -1532,9 +1093,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:has_structure/end_city
 - minecraft:end_highlands
 - minecraft:end_midlands
-
-#bettermineshafts:has_structure/has_mineshaft_lush
-- minecraft:lush_caves
+- minecraft:end_highlands
+- minecraft:end_midlands
 
 #croptopia:has_crop/grape
 - minecraft:forest
@@ -1579,36 +1139,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:cryptic_wastes?
 - byg:imparius_grove?
 
-#bettermineshafts:has_structure/has_mineshaft_jungle
-- #minecraft:is_jungle
-
-#croptopia:has_crop/zucchini
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- byg:araucaria_savanna?
-- byg:baobab_savanna?
-
-#croptopia:has_crop/asparagus
-- minecraft:swamp
-- byg:bayou?
-- byg:cypress_swamplands?
-- byg:white_mangrove_marshes?
-
 #minecraft:has_structure/bastion_remnant
 - minecraft:crimson_forest
 - minecraft:nether_wastes
 - minecraft:soul_sand_valley
 - minecraft:warped_forest
-
-#croptopia:has_crop/onion
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- byg:crag_gardens?
-- byg:guiana_shield?
-- byg:jacaranda_forest?
-- byg:tropical_rainforest?
+- minecraft:crimson_forest
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:warped_forest
 
 #twilightforest:valid_hollow_hill_biomes
 - twilightforest:clearing
@@ -1625,6 +1164,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:is_hill
 - minecraft:savanna_plateau
 - minecraft:windswept_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- terralith:fractured_savanna
 - minecraft:stony_shore
 - #minecraft:is_mountain
 
@@ -1659,3 +1205,906 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - byg:weeping_witch_forest?
 - byg:temperate_rainforest?
 - byg:zelkova_forest?
+
+#c:climate_wet
+- #c:aquatic?
+- #c:swamp?
+- minecraft:lush_caves
+- #c:jungle?
+
+#croptopia:has_crop/chile_pepper
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#minecraft:is_river
+- minecraft:river
+- minecraft:frozen_river
+- minecraft:river
+- minecraft:frozen_river
+
+#croptopia:has_crop/turnip
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- byg:crag_gardens?
+- byg:guiana_shield?
+- byg:jacaranda_forest?
+- byg:tropical_rainforest?
+
+#c:nether_forests
+- minecraft:warped_forest
+- minecraft:crimson_forest
+
+#croptopia:has_crop/tomato
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#twilightforest:valid_hydra_lair_biomes
+- twilightforest:fire_swamp
+
+#croptopia:has_crop/cucumber
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#c:in_nether
+- #minecraft:is_nether?
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:basalt_deltas
+
+#c:tree_coniferous
+- minecraft:grove
+- #c:taiga?
+
+#terralith:all_terralith_biomes
+- terralith:desert_canyon
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/frostfire_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+- terralith:alpha_islands_winter
+- terralith:alpha_islands
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:birch_taiga
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:lush_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:mountain_steppe
+- terralith:orchid_swamp
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:scarlet_mountains
+- terralith:shield_clearing
+- terralith:shield
+- terralith:shrubland
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:skylands_summer
+- terralith:skylands_winter
+- terralith:skylands
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:steppe
+- terralith:stony_spires
+- terralith:temperate_highlands
+- terralith:tropical_jungle
+- terralith:valley_clearing
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_cliffs
+- terralith:white_mesa
+- terralith:windswept_spires
+- terralith:wintry_forest
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+- terralith:yosemite_lowlands
+
+#c:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:savanna
+
+#croptopia:has_crop/corn
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#c:caves
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#twilightforest:valid_hedge_maze_biomes
+- twilightforest:clearing
+- twilightforest:dense_forest
+- twilightforest:dense_mushroom_forest
+- twilightforest:firefly_forest
+- twilightforest:forest
+- twilightforest:mushroom_forest
+- twilightforest:oak_savannah
+- twilightforest:spooky_forest
+
+#c:floral
+- minecraft:sunflower_plains
+- minecraft:flower_forest
+
+#twilightforest:valid_mushroom_tower_biomes
+- twilightforest:dense_mushroom_forest
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach
+- #minecraft:is_beach
+
+#croptopia:has_crop/vanilla
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- byg:crag_gardens?
+- byg:guiana_shield?
+- byg:jacaranda_forest?
+- byg:tropical_rainforest?
+
+#croptopia:has_crop/sweetpotato
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#c:badlands
+- #c:mesa?
+- #minecraft:is_badlands?
+
+#c:underground
+- #c:caves?
+
+#croptopia:has_crop/rutabaga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+- byg:black_forest?
+- byg:coniferous_forest?
+- byg:maple_taiga?
+- byg:autumnal_taiga?
+- byg:frosted_taiga?
+- byg:frosted_coniferous_forest?
+- byg:zelkova_forest?
+
+#c:jungle
+- #minecraft:is_jungle?
+
+#croptopia:has_crop/cauliflower
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- terralith:wintry_forest
+- terralith:snowy_badlands
+
+#c:wasteland
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach
+- #minecraft:is_beach
+
+#bettermineshafts:has_structure/has_mineshaft_dripstone
+- minecraft:dripstone_caves
+
+#croptopia:has_crop/cranberry
+- minecraft:swamp
+- byg:bayou?
+- byg:cypress_swamplands?
+- byg:white_mangrove_marshes?
+
+#croptopia:has_crop/greenbean
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#bosses_of_mass_destruction:has_structure/lich_tower
+- #bosses_of_mass_destruction:collections/cold
+
+#c:deep_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+
+#betterdungeons:has_structure/has_small_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#croptopia:has_crop/rhubarb
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- byg:crag_gardens?
+- byg:guiana_shield?
+- byg:jacaranda_forest?
+- byg:tropical_rainforest?
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean
+
+#bosses_of_mass_destruction:collections/in_overworld
+- #minecraft:is_badlands
+- #minecraft:is_deep_ocean
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle
+- #minecraft:is_jungle
+
+#bettermineshafts:has_structure/has_mineshaft_spruce_snowy
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+
+#c:climate_cold
+- minecraft:grove
+- minecraft:jagged_peaks
+- #c:icy?
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert
+- minecraft:desert
+- terralith:desert_oasis
+- terralith:sandstone_valley
+- terralith:desert_spires
+
+#c:in_the_end
+- minecraft:end_barrens
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:the_end
+- minecraft:small_end_islands
+
+#croptopia:has_crop/kale
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#croptopia:has_crop/hops
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+
+#croptopia:has_crop/tomatillo
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest
+- minecraft:dark_forest
+- terralith:sakura_grove
+
+#croptopia:has_crop/turmeric
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+
+#twilightforest:valid_final_castle_biomes
+- twilightforest:final_plateau
+
+#c:mountain_peak
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+
+#croptopia:has_crop/currant
+- minecraft:swamp
+- byg:bayou?
+- byg:cypress_swamplands?
+- byg:white_mangrove_marshes?
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+- minecraft:deep_lukewarm_ocean
+
+#croptopia:has_crop/blackbean
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#bosses_of_mass_destruction:has_structure/none
+
+#terralith:has_structure/fortified_village
+- minecraft:plains
+- minecraft:sunflower_plains
+- terralith:temperate_highlands
+- terralith:forested_highlands
+- terralith:alpine_highlands
+- terralith:brushland
+- minecraft:meadow
+
+#croptopia:has_crop/pineapple
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- byg:crag_gardens?
+- byg:guiana_shield?
+- byg:jacaranda_forest?
+- byg:tropical_rainforest?
+
+#betterdungeons:has_structure/has_spider_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#bosses_of_mass_destruction:has_structure/void_blossom
+- #bosses_of_mass_destruction:collections/in_overworld
+
+#c:flower_forests
+- minecraft:flower_forest
+
+#croptopia:has_crop/radish
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna
+- minecraft:savanna
+- terralith:arid_highlands
+- terralith:hot_shrubland
+- terralith:savanna_slopes
+- terralith:savanna_badlands
+
+#croptopia:has_crop/blueberry
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:grove
+- byg:aspen_forest?
+- byg:black_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:coniferous_forest?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:maple_taiga?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:autumnal_taiga?
+- byg:redwood_thicket?
+- byg:frosted_taiga?
+- byg:frosted_coniferous_forest?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+- byg:zelkova_forest?
+
+#c:mountain_slope
+- minecraft:snowy_slopes
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga
+- minecraft:taiga
+- terralith:highlands
+- terralith:forested_highlands
+- terralith:siberian_taiga
+- terralith:shield
+- terralith:shield_clearing
+- terralith:cold_shrubland
+- terralith:rocky_shrubland
+- terralith:lush_valley
+- terralith:alpine_highlands
+
+#betterdungeons:has_structure/has_zombie_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#croptopia:has_crop/lettuce
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#c:void
+- minecraft:the_void
+
+#croptopia:has_crop/pepper
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#betterdungeons:has_structure/has_skeleton_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert
+- minecraft:desert
+- terralith:sandstone_valley
+- terralith:desert_spires
+- terralith:desert_oasis
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp
+- minecraft:swamp
+- terralith:orchid_swamp
+- terralith:ice_marsh
+
+#bettermineshafts:has_structure/has_mineshaft_mesa
+- #minecraft:is_badlands
+
+#bettermineshafts:has_structure/has_mineshaft_desert
+- minecraft:desert
+
+#bettermineshafts:has_structure/has_mineshaft_forest
+- #minecraft:is_forest
+
+#twilightforest:valid_quest_grove_biomes
+- twilightforest:enchanted_forest
+
+#croptopia:has_crop/broccoli
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#c:climate_dry
+- #c:in_nether?
+- #c:badlands?
+- #c:desert?
+- #c:savanna?
+
+#twilightforest:valid_labyrinth_biomes
+- twilightforest:swamp
+
+#croptopia:has_crop/olive
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+
+#c:mesa
+- minecraft:wooded_badlands
+- minecraft:eroded_badlands
+- minecraft:badlands
+
+#minecraft:is_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- terralith:birch_taiga
+- terralith:lush_valley
+- terralith:shield
+- terralith:yellowstone
+- terralith:forested_highlands
+- terralith:wintry_forest
+- terralith:yosemite_lowlands
+
+#twilightforest:valid_knight_stronghold_biomes
+- twilightforest:dark_forest
+
+#croptopia:has_crop/elderberry
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:grove
+- byg:aspen_forest?
+- byg:borealis_grove?
+- byg:cherry_blossom_forest?
+- byg:cika_woods?
+- byg:ebony_woods?
+- byg:forgotten_forest?
+- byg:red_oak_forest?
+- byg:autumnal_forest?
+- byg:redwood_thicket?
+- byg:fragment_forest?
+- byg:twilight_meadow?
+- byg:weeping_witch_forest?
+- byg:temperate_rainforest?
+
+#croptopia:has_crop/cabbage
+- minecraft:plains
+- minecraft:sunflower_plains
+- byg:allium_fields?
+- byg:amaranth_fields?
+- byg:autumnal_valley?
+- byg:temperate_grove?
+- byg:coconino_meadow?
+- byg:orchard?
+- byg:prairie?
+- byg:rose_fields?
+- byg:sierra_badlands?
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains
+- minecraft:snowy_plains
+- terralith:snowy_badlands
+
+#bettermineshafts:has_structure/has_mineshaft_oak
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:meadow
+
+#c:snowy
+- minecraft:snowy_beach
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:snowy_taiga
+
+#bettermineshafts:has_structure/has_mineshaft_spruce
+- #minecraft:is_taiga
+
+#c:taiga
+- #minecraft:is_taiga?
+
+#croptopia:has_crop/leek
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+
+#bosses_of_mass_destruction:has_structure/gauntlet_arena
+- #bosses_of_mass_destruction:collections/in_nether
+
+#c:humid
+- minecraft:lush_caves
+- #minecraft:is_jungle
+
+#bettermineshafts:has_structure/has_mineshaft_lush
+- minecraft:lush_caves
+
+#bettermineshafts:has_structure/has_mineshaft_jungle
+- #minecraft:is_jungle
+
+#croptopia:has_crop/zucchini
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- byg:araucaria_savanna?
+- byg:baobab_savanna?
+
+#croptopia:has_crop/asparagus
+- minecraft:swamp
+- byg:bayou?
+- byg:cypress_swamplands?
+- byg:white_mangrove_marshes?
+
+#croptopia:has_crop/onion
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- byg:crag_gardens?
+- byg:guiana_shield?
+- byg:jacaranda_forest?
+- byg:tropical_rainforest?

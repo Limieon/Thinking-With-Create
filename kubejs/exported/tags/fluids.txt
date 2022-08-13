@@ -1,12 +1,14 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 22, 2022, 9:45:06 PM
+To refresh this file, delete it and run /reload command again! Last updated: Aug 13, 2022, 11:55:56 AM
 
-#c:biofuel
-- createaddition:flowing_bioethanol
-- createaddition:bioethanol
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
 
-#c:crude_oil
+#create:bottomless/deny
 
-#c:creosote
+#c:honey
+- create:flowing_honey
+- create:honey
 
 #minecraft:water
 - minecraft:water
@@ -15,18 +17,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - create:honey
 - create:flowing_chocolate
 - create:chocolate
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
 - milk:flowing_milk?
 - milk:still_milk?
 - xps:xp_fluid
 - xps:flowing_xp
 
-#ae2:blacklisted/annihilation_plane
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
 
-#c:plantoil
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
+#c:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#ae2:blacklisted/annihilation_plane
 
 #c:milk
 - milk:flowing_milk?
@@ -42,27 +46,5 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #twilightforest:fire_jet_fuel
 - #minecraft:lava
 
-#c:ethanol
-- createaddition:flowing_bioethanol
-- createaddition:bioethanol
-
 #c:lava
 - #minecraft:lava?
-
-#minecraft:lava
-- minecraft:lava
-- minecraft:flowing_lava
-
-#create:bottomless/deny
-
-#c:honey
-- create:flowing_honey
-- create:honey
-
-#create:bottomless/allow
-- minecraft:water
-- minecraft:lava
-
-#c:chocolate
-- create:flowing_chocolate
-- create:chocolate

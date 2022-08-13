@@ -78,14 +78,5 @@
 				type: "checkmark"
 			}]
 		}
-		{
-			x: -1.875d
-			y: 1.375d
-			id: "1E3553D5C13C1FE4"
-			tasks: [{
-				id: "1677286D9DBF6310"
-				type: "checkmark"
-			}]
-		}
 	]
 }
